@@ -1,7 +1,7 @@
 
 # Swift is like TypeScript
 
-Page: http://alhazmy13.github.io/swift-is-like-typescript/
+Page: https://alhazmy13.github.io/swift-is-like-typescript.html
 
 Programmatically inspired from [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go) and visually inspired from [swiftislikescala](https://github.com/leverich/swiftislikescala)
 
