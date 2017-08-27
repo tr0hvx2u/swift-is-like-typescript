@@ -1,0 +1,2103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'canvas' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /Users/Alhazmy13/Projects/swift-is-like-typescript/package.json
+5 verbose installManyTop reading scoped package data from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/mission/package.json
+6 verbose installManyTop reading scoped package data from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/node-gyp/package.json
+7 verbose installManyTop reading scoped package data from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/shelljs/package.json
+8 info package.json shelljs@0.3.0 license should be a valid SPDX license expression
+9 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/package.json
+10 silly cache add args [ 'canvas@^1.6.6', null ]
+11 verbose cache add spec canvas@^1.6.6
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'canvas@^1.6.6',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'canvas',
+12 silly cache add   rawSpec: '^1.6.6',
+12 silly cache add   spec: '>=1.6.6 <2.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed canvas@>=1.6.6 <2.0.0
+14 verbose addNamed ">=1.6.6 <2.0.0" is a valid semver range for canvas
+15 silly addNameRange { name: 'canvas', range: '>=1.6.6 <2.0.0', hasData: false }
+16 silly mapToRegistry name canvas
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/canvas
+20 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+21 verbose get https://registry.npmjs.org/canvas not expired, no request
+22 silly addNameRange number 2 { name: 'canvas', range: '>=1.6.6 <2.0.0', hasData: true }
+23 silly addNameRange versions [ 'canvas',
+23 silly addNameRange   [ '0.0.1',
+23 silly addNameRange     '0.0.2',
+23 silly addNameRange     '0.0.3',
+23 silly addNameRange     '0.0.4',
+23 silly addNameRange     '0.0.5',
+23 silly addNameRange     '0.0.6',
+23 silly addNameRange     '0.0.7',
+23 silly addNameRange     '0.0.8',
+23 silly addNameRange     '0.1.0',
+23 silly addNameRange     '0.2.0',
+23 silly addNameRange     '0.2.1',
+23 silly addNameRange     '0.3.0',
+23 silly addNameRange     '0.3.1',
+23 silly addNameRange     '0.3.2',
+23 silly addNameRange     '0.3.3',
+23 silly addNameRange     '0.4.0',
+23 silly addNameRange     '0.4.1',
+23 silly addNameRange     '0.4.2',
+23 silly addNameRange     '0.4.3',
+23 silly addNameRange     '0.5.0',
+23 silly addNameRange     '0.5.1',
+23 silly addNameRange     '0.5.2',
+23 silly addNameRange     '0.5.3',
+23 silly addNameRange     '0.5.4',
+23 silly addNameRange     '0.6.0',
+23 silly addNameRange     '0.7.0',
+23 silly addNameRange     '0.7.1',
+23 silly addNameRange     '0.7.2',
+23 silly addNameRange     '0.7.3',
+23 silly addNameRange     '0.8.0',
+23 silly addNameRange     '0.8.1',
+23 silly addNameRange     '0.8.2',
+23 silly addNameRange     '0.8.3',
+23 silly addNameRange     '0.9.0',
+23 silly addNameRange     '0.10.0',
+23 silly addNameRange     '0.10.1',
+23 silly addNameRange     '0.10.2',
+23 silly addNameRange     '0.10.3',
+23 silly addNameRange     '0.11.0',
+23 silly addNameRange     '0.11.1',
+23 silly addNameRange     '0.11.2',
+23 silly addNameRange     '0.11.3',
+23 silly addNameRange     '0.12.0',
+23 silly addNameRange     '0.12.1',
+23 silly addNameRange     '0.13.0',
+23 silly addNameRange     '0.13.1',
+23 silly addNameRange     '1.0.0',
+23 silly addNameRange     '1.0.1',
+23 silly addNameRange     '1.0.2',
+23 silly addNameRange     '1.0.3',
+23 silly addNameRange     '1.0.4',
+23 silly addNameRange     '1.1.0',
+23 silly addNameRange     '1.1.1',
+23 silly addNameRange     '1.1.2',
+23 silly addNameRange     '1.1.3',
+23 silly addNameRange     '1.1.4',
+23 silly addNameRange     '1.1.5',
+23 silly addNameRange     '1.1.6',
+23 silly addNameRange     '1.2.0',
+23 silly addNameRange     '1.2.1',
+23 silly addNameRange     '1.2.2',
+23 silly addNameRange     '1.2.3',
+23 silly addNameRange     '1.2.4',
+23 silly addNameRange     '1.2.5',
+23 silly addNameRange     '1.2.6',
+23 silly addNameRange     '1.2.7',
+23 silly addNameRange     '1.2.8',
+23 silly addNameRange     '1.2.9',
+23 silly addNameRange     '1.2.10',
+23 silly addNameRange     '1.2.11',
+23 silly addNameRange     '1.3.0',
+23 silly addNameRange     '1.3.1',
+23 silly addNameRange     '1.3.2',
+23 silly addNameRange     '1.3.3',
+23 silly addNameRange     '1.3.4',
+23 silly addNameRange     '1.3.5',
+23 silly addNameRange     '1.3.6',
+23 silly addNameRange     '1.3.7',
+23 silly addNameRange     '1.3.8',
+23 silly addNameRange     '1.3.9',
+23 silly addNameRange     '1.3.10',
+23 silly addNameRange     '1.3.11',
+23 silly addNameRange     '1.3.12',
+23 silly addNameRange     '1.3.13',
+23 silly addNameRange     '1.3.14',
+23 silly addNameRange     '1.3.15',
+23 silly addNameRange     '1.3.16',
+23 silly addNameRange     '1.4.0',
+23 silly addNameRange     '1.5.0',
+23 silly addNameRange     '1.6.0',
+23 silly addNameRange     '1.6.1',
+23 silly addNameRange     '1.6.2',
+23 silly addNameRange     '1.6.3',
+23 silly addNameRange     '1.6.4',
+23 silly addNameRange     '1.6.5',
+23 silly addNameRange     '2.0.0-alpha.1',
+23 silly addNameRange     '2.0.0-alpha.2',
+23 silly addNameRange     '1.6.6' ] ]
+24 silly addNamed canvas@1.6.6
+25 verbose addNamed "1.6.6" is a plain semver version for canvas
+26 silly cache afterAdd canvas@1.6.6
+27 verbose afterAdd /Users/Alhazmy13/.npm/canvas/1.6.6/package/package.json not in flight; writing
+28 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+29 verbose afterAdd /Users/Alhazmy13/.npm/canvas/1.6.6/package/package.json written
+30 silly install resolved [ { name: 'canvas',
+30 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+30 silly install resolved     version: '1.6.6',
+30 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+30 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+30 silly install resolved     keywords:
+30 silly install resolved      [ 'canvas',
+30 silly install resolved        'graphic',
+30 silly install resolved        'graphics',
+30 silly install resolved        'pixman',
+30 silly install resolved        'cairo',
+30 silly install resolved        'image',
+30 silly install resolved        'images',
+30 silly install resolved        'pdf' ],
+30 silly install resolved     homepage: 'https://github.com/Automattic/node-canvas',
+30 silly install resolved     repository:
+30 silly install resolved      { type: 'git',
+30 silly install resolved        url: 'git://github.com/Automattic/node-canvas.git' },
+30 silly install resolved     scripts:
+30 silly install resolved      { prebenchmark: 'node-gyp build',
+30 silly install resolved        benchmark: 'node benchmarks/run.js',
+30 silly install resolved        pretest: 'node-gyp build',
+30 silly install resolved        test: 'standard examples/*.js && mocha test/*.test.js',
+30 silly install resolved        'pretest-server': 'node-gyp build',
+30 silly install resolved        'test-server': 'node test/server.js',
+30 silly install resolved        install: 'node-gyp rebuild' },
+30 silly install resolved     dependencies:
+30 silly install resolved      { nan: '^2.4.0',
+30 silly install resolved        'parse-css-font': '^2.0.2',
+30 silly install resolved        'units-css': '^0.4.0' },
+30 silly install resolved     devDependencies:
+30 silly install resolved      { 'body-parser': '^1.13.3',
+30 silly install resolved        express: '^4.13.2',
+30 silly install resolved        pug: '^2.0.0-beta3',
+30 silly install resolved        mocha: '*',
+30 silly install resolved        standard: '^7.1.1' },
+30 silly install resolved     engines: { node: '>=0.8.0' },
+30 silly install resolved     main: './lib/canvas.js',
+30 silly install resolved     license: 'MIT',
+30 silly install resolved     gypfile: true,
+30 silly install resolved     gitHead: '615f80e18b87c761f8ac91304762d1cf87d244cd',
+30 silly install resolved     bugs: { url: 'https://github.com/Automattic/node-canvas/issues' },
+30 silly install resolved     _id: 'canvas@1.6.6',
+30 silly install resolved     _npmVersion: '5.0.3',
+30 silly install resolved     _nodeVersion: '8.1.4',
+30 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+30 silly install resolved     dist:
+30 silly install resolved      { integrity: 'sha512-6E4FStIGsKiVG11nJHo42/zryM3+0/luss/IwGfhzaUlv+lnGsxsqJMSMc1JolR3QxtL+x8x4KlVWbVcCGmFfg==',
+30 silly install resolved        shasum: '1c7af9e07d003dd082698b4a4e027773281029ca',
+30 silly install resolved        tarball: 'https://registry.npmjs.org/canvas/-/canvas-1.6.6.tgz' },
+30 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+30 silly install resolved     _npmOperationalInternal:
+30 silly install resolved      { host: 's3://npm-registry-packages',
+30 silly install resolved        tmp: 'tmp/canvas-1.6.6.tgz_1501537663970_0.9591554084327072' },
+30 silly install resolved     directories: {},
+30 silly install resolved     _shasum: '1c7af9e07d003dd082698b4a4e027773281029ca',
+30 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.6.6.tgz',
+30 silly install resolved     _from: 'canvas@>=1.6.6 <2.0.0',
+30 silly install resolved     readme: 'ERROR: No README data found!' } ]
+31 info install canvas@1.6.6 into /Users/Alhazmy13/Projects/swift-is-like-typescript
+32 info installOne canvas@1.6.6
+33 verbose installOne of canvas to /Users/Alhazmy13/Projects/swift-is-like-typescript not in flight; installing
+34 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+35 verbose lock using /Users/Alhazmy13/.npm/_locks/canvas-1075284e175a9005.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+36 silly install write writing canvas 1.6.6 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+37 verbose unbuild node_modules/canvas
+38 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+39 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+40 verbose tar unpack /Users/Alhazmy13/.npm/canvas/1.6.6/package.tgz
+41 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+42 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas is being purged
+43 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry index.js
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm extractEntry History.md
+50 silly gunzTarPerm extractEntry Readme.md
+51 silly gunzTarPerm extractEntry binding.gyp
+52 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+53 silly gunzTarPerm extractEntry lib/bindings.js
+54 silly gunzTarPerm extractEntry lib/canvas.js
+55 silly gunzTarPerm extractEntry lib/context2d.js
+56 silly gunzTarPerm extractEntry lib/image.js
+57 silly gunzTarPerm extractEntry lib/jpegstream.js
+58 silly gunzTarPerm extractEntry lib/pdfstream.js
+59 silly gunzTarPerm extractEntry lib/pngstream.js
+60 silly gunzTarPerm extractEntry src/Image.cc
+61 silly gunzTarPerm extractEntry src/Canvas.cc
+62 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+63 silly gunzTarPerm extractEntry src/CanvasGradient.h
+64 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+65 silly gunzTarPerm extractEntry src/CanvasPattern.h
+66 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+67 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+68 silly gunzTarPerm extractEntry src/FontFace.cc
+69 silly gunzTarPerm extractEntry src/FontFace.h
+70 silly gunzTarPerm extractEntry src/Canvas.h
+71 silly gunzTarPerm extractEntry src/Image.h
+72 silly gunzTarPerm extractEntry src/ImageData.cc
+73 silly gunzTarPerm extractEntry src/ImageData.h
+74 silly gunzTarPerm extractEntry src/JPEGStream.h
+75 silly gunzTarPerm extractEntry src/PNG.h
+76 silly gunzTarPerm extractEntry src/Point.h
+77 silly gunzTarPerm extractEntry src/closure.h
+78 silly gunzTarPerm extractEntry src/color.cc
+79 silly gunzTarPerm extractEntry src/color.h
+80 silly gunzTarPerm extractEntry src/init.cc
+81 silly gunzTarPerm extractEntry util/has_lib.sh
+82 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/package.json
+83 info preinstall canvas@1.6.6
+84 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/package.json
+85 silly prepareForInstallMany adding nan@^2.4.0 from canvas dependencies
+86 silly prepareForInstallMany adding parse-css-font@^2.0.2 from canvas dependencies
+87 silly prepareForInstallMany adding units-css@^0.4.0 from canvas dependencies
+88 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/package.json
+89 silly cache add args [ 'nan@^2.4.0', null ]
+90 verbose cache add spec nan@^2.4.0
+91 silly cache add args [ 'parse-css-font@^2.0.2', null ]
+92 verbose cache add spec parse-css-font@^2.0.2
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'nan@^2.4.0',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'nan',
+93 silly cache add   rawSpec: '^2.4.0',
+93 silly cache add   spec: '>=2.4.0 <3.0.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed nan@>=2.4.0 <3.0.0
+95 verbose addNamed ">=2.4.0 <3.0.0" is a valid semver range for nan
+96 silly addNameRange { name: 'nan', range: '>=2.4.0 <3.0.0', hasData: false }
+97 silly mapToRegistry name nan
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/nan
+101 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'parse-css-font@^2.0.2',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'parse-css-font',
+102 silly cache add   rawSpec: '^2.0.2',
+102 silly cache add   spec: '>=2.0.2 <3.0.0',
+102 silly cache add   type: 'range' }
+103 silly addNamed parse-css-font@>=2.0.2 <3.0.0
+104 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for parse-css-font
+105 silly addNameRange { name: 'parse-css-font',
+105 silly addNameRange   range: '>=2.0.2 <3.0.0',
+105 silly addNameRange   hasData: false }
+106 silly mapToRegistry name parse-css-font
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/parse-css-font
+110 verbose addNameRange registry:https://registry.npmjs.org/parse-css-font not in flight; fetching
+111 silly cache add args [ 'units-css@^0.4.0', null ]
+112 verbose cache add spec units-css@^0.4.0
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: 'units-css@^0.4.0',
+113 silly cache add   scope: null,
+113 silly cache add   name: 'units-css',
+113 silly cache add   rawSpec: '^0.4.0',
+113 silly cache add   spec: '>=0.4.0 <0.5.0',
+113 silly cache add   type: 'range' }
+114 silly addNamed units-css@>=0.4.0 <0.5.0
+115 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for units-css
+116 silly addNameRange { name: 'units-css', range: '>=0.4.0 <0.5.0', hasData: false }
+117 silly mapToRegistry name units-css
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/units-css
+121 verbose addNameRange registry:https://registry.npmjs.org/units-css not in flight; fetching
+122 verbose get https://registry.npmjs.org/parse-css-font not expired, no request
+123 silly addNameRange number 2 { name: 'parse-css-font',
+123 silly addNameRange   range: '>=2.0.2 <3.0.0',
+123 silly addNameRange   hasData: true }
+124 silly addNameRange versions [ 'parse-css-font', [ '1.0.0', '2.0.0', '2.0.1', '2.0.2' ] ]
+125 silly addNamed parse-css-font@2.0.2
+126 verbose addNamed "2.0.2" is a plain semver version for parse-css-font
+127 verbose get https://registry.npmjs.org/units-css not expired, no request
+128 silly addNameRange number 2 { name: 'units-css', range: '>=0.4.0 <0.5.0', hasData: true }
+129 silly addNameRange versions [ 'units-css', [ '0.0.0', '0.1.0', '0.2.0', '0.3.0', '0.4.0' ] ]
+130 silly addNamed units-css@0.4.0
+131 verbose addNamed "0.4.0" is a plain semver version for units-css
+132 verbose get https://registry.npmjs.org/nan not expired, no request
+133 silly addNameRange number 2 { name: 'nan', range: '>=2.4.0 <3.0.0', hasData: true }
+134 silly addNameRange versions [ 'nan',
+134 silly addNameRange   [ '0.3.0-wip',
+134 silly addNameRange     '0.3.0-wip2',
+134 silly addNameRange     '0.3.0',
+134 silly addNameRange     '0.3.1',
+134 silly addNameRange     '0.3.2',
+134 silly addNameRange     '0.4.0',
+134 silly addNameRange     '0.4.1',
+134 silly addNameRange     '0.4.2',
+134 silly addNameRange     '0.4.3',
+134 silly addNameRange     '0.4.4',
+134 silly addNameRange     '0.5.0',
+134 silly addNameRange     '0.5.1',
+134 silly addNameRange     '0.5.2',
+134 silly addNameRange     '0.6.0',
+134 silly addNameRange     '0.7.0',
+134 silly addNameRange     '0.7.1',
+134 silly addNameRange     '0.8.0',
+134 silly addNameRange     '1.0.0',
+134 silly addNameRange     '1.1.0',
+134 silly addNameRange     '1.1.1',
+134 silly addNameRange     '1.1.2',
+134 silly addNameRange     '1.2.0',
+134 silly addNameRange     '1.3.0',
+134 silly addNameRange     '1.4.0',
+134 silly addNameRange     '1.4.1',
+134 silly addNameRange     '1.5.0',
+134 silly addNameRange     '1.4.2',
+134 silly addNameRange     '1.4.3',
+134 silly addNameRange     '1.5.1',
+134 silly addNameRange     '1.5.2',
+134 silly addNameRange     '1.6.0',
+134 silly addNameRange     '1.5.3',
+134 silly addNameRange     '1.6.1',
+134 silly addNameRange     '1.6.2',
+134 silly addNameRange     '1.7.0',
+134 silly addNameRange     '1.8.0',
+134 silly addNameRange     '1.8.1',
+134 silly addNameRange     '1.8.2',
+134 silly addNameRange     '1.8.3',
+134 silly addNameRange     '1.8.4',
+134 silly addNameRange     '1.9.0',
+134 silly addNameRange     '2.0.0',
+134 silly addNameRange     '2.0.1',
+134 silly addNameRange     '2.0.2',
+134 silly addNameRange     '2.0.3',
+134 silly addNameRange     '2.0.4',
+134 silly addNameRange     '2.0.5',
+134 silly addNameRange     '2.0.6',
+134 silly addNameRange     '2.0.7',
+134 silly addNameRange     '2.0.8',
+134 silly addNameRange     '2.0.9',
+134 silly addNameRange     '2.1.0',
+134 silly addNameRange     '2.2.0',
+134 silly addNameRange     '2.2.1',
+134 silly addNameRange     '2.3.0',
+134 silly addNameRange     '2.3.1',
+134 silly addNameRange     '2.3.2',
+134 silly addNameRange     '2.3.3',
+134 silly addNameRange     '2.3.4',
+134 silly addNameRange     '2.3.5',
+134 silly addNameRange     '2.4.0',
+134 silly addNameRange     '2.5.0',
+134 silly addNameRange     '2.5.1',
+134 silly addNameRange     '2.6.0',
+134 silly addNameRange     '2.6.1',
+134 silly addNameRange     '2.6.2' ] ]
+135 silly addNamed nan@2.6.2
+136 verbose addNamed "2.6.2" is a plain semver version for nan
+137 silly cache afterAdd parse-css-font@2.0.2
+138 verbose afterAdd /Users/Alhazmy13/.npm/parse-css-font/2.0.2/package/package.json not in flight; writing
+139 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+140 silly cache afterAdd units-css@0.4.0
+141 verbose afterAdd /Users/Alhazmy13/.npm/units-css/0.4.0/package/package.json not in flight; writing
+142 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+143 silly cache afterAdd nan@2.6.2
+144 verbose afterAdd /Users/Alhazmy13/.npm/nan/2.6.2/package/package.json not in flight; writing
+145 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+146 verbose afterAdd /Users/Alhazmy13/.npm/parse-css-font/2.0.2/package/package.json written
+147 verbose afterAdd /Users/Alhazmy13/.npm/units-css/0.4.0/package/package.json written
+148 verbose afterAdd /Users/Alhazmy13/.npm/nan/2.6.2/package/package.json written
+149 silly install resolved [ { name: 'parse-css-font',
+149 silly install resolved     version: '2.0.2',
+149 silly install resolved     description: 'Parse the CSS font property value.',
+149 silly install resolved     main: 'index.js',
+149 silly install resolved     scripts:
+149 silly install resolved      { test: 'npm run cover && npm run check-coverage',
+149 silly install resolved        cover: 'istanbul cover test/index.js',
+149 silly install resolved        'check-coverage': 'istanbul check-coverage' },
+149 silly install resolved     repository:
+149 silly install resolved      { type: 'git',
+149 silly install resolved        url: 'git+https://github.com/jedmao/parse-css-font.git' },
+149 silly install resolved     keywords: [ 'css', 'parse', 'font', 'shorthand' ],
+149 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+149 silly install resolved     license: 'MIT',
+149 silly install resolved     bugs: { url: 'https://github.com/jedmao/parse-css-font/issues' },
+149 silly install resolved     homepage: 'https://github.com/jedmao/parse-css-font#readme',
+149 silly install resolved     dependencies:
+149 silly install resolved      { 'css-font-size-keywords': '^1.0.0',
+149 silly install resolved        'css-font-stretch-keywords': '^1.0.1',
+149 silly install resolved        'css-font-style-keywords': '^1.0.1',
+149 silly install resolved        'css-font-weight-keywords': '^1.0.0',
+149 silly install resolved        'css-global-keywords': '^1.0.1',
+149 silly install resolved        'css-list-helpers': '^1.0.1',
+149 silly install resolved        'css-system-font-keywords': '^1.0.0',
+149 silly install resolved        tcomb: '^2.5.0',
+149 silly install resolved        unquote: '^1.1.0' },
+149 silly install resolved     devDependencies: { istanbul: '^0.3.21', tape: '^4.2.0' },
+149 silly install resolved     gitHead: '09530328e762ce40a1732d1c3555e2f48975e6ff',
+149 silly install resolved     _id: 'parse-css-font@2.0.2',
+149 silly install resolved     _shasum: '7b60b060705a25a9b90b7f0ed493e5823248a652',
+149 silly install resolved     _from: 'parse-css-font@>=2.0.2 <3.0.0',
+149 silly install resolved     _npmVersion: '2.14.3',
+149 silly install resolved     _nodeVersion: '4.1.0',
+149 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+149 silly install resolved     dist:
+149 silly install resolved      { shasum: '7b60b060705a25a9b90b7f0ed493e5823248a652',
+149 silly install resolved        tarball: 'https://registry.npmjs.org/parse-css-font/-/parse-css-font-2.0.2.tgz' },
+149 silly install resolved     maintainers: [ [Object] ],
+149 silly install resolved     directories: {},
+149 silly install resolved     _resolved: 'https://registry.npmjs.org/parse-css-font/-/parse-css-font-2.0.2.tgz',
+149 silly install resolved     readme: 'ERROR: No README data found!' },
+149 silly install resolved   { name: 'units-css',
+149 silly install resolved     version: '0.4.0',
+149 silly install resolved     description: 'Parse length and angle CSS values and convert between units',
+149 silly install resolved     author: { name: 'Alex Dunphy', email: 'alexanderdunphy@gmail.com' },
+149 silly install resolved     main: 'index.js',
+149 silly install resolved     scripts:
+149 silly install resolved      { test: 'gulp dev',
+149 silly install resolved        coveralls: 'if [ ! -f ./test/coverage/lcov.info ]; then npm test; fi; cat ./test/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+149 silly install resolved     repository:
+149 silly install resolved      { type: 'git',
+149 silly install resolved        url: 'git+ssh://git@github.com/alexdunphy/units.git' },
+149 silly install resolved     bugs: { url: 'https://github.com/alexdunphy/units/issues' },
+149 silly install resolved     homepage: 'https://github.com/alexdunphy/units',
+149 silly install resolved     license: 'MIT',
+149 silly install resolved     devDependencies:
+149 silly install resolved      { bower: '^1.5.2',
+149 silly install resolved        chai: '^3.2.0',
+149 silly install resolved        coveralls: '^2.11.4',
+149 silly install resolved        gulp: '^3.9.0',
+149 silly install resolved        'gulp-eslint': '^1.0.0',
+149 silly install resolved        'gulp-header': '^1.7.1',
+149 silly install resolved        'gulp-notify': '^2.2.0',
+149 silly install resolved        'gulp-rename': '^1.2.2',
+149 silly install resolved        'gulp-uglify': '^1.4.0',
+149 silly install resolved        'gulp-util': '^3.0.6',
+149 silly install resolved        karma: '^0.13.9',
+149 silly install resolved        'karma-coverage': '^0.5.1',
+149 silly install resolved        'karma-mocha': '^0.2.0',
+149 silly install resolved        'karma-mocha-reporter': '^1.1.1',
+149 silly install resolved        'karma-notify-reporter': '^0.1.1',
+149 silly install resolved        'karma-phantomjs-launcher': '^0.2.1',
+149 silly install resolved        'karma-sauce-launcher': '^0.2.14',
+149 silly install resolved        'karma-sinon-chai': '^1.0.0',
+149 silly install resolved        lodash: '^3.10.1',
+149 silly install resolved        mocha: '^2.3.0',
+149 silly install resolved        phantomjs: '^1.9.18',
+149 silly install resolved        'run-sequence': '^1.1.2',
+149 silly install resolved        webpack: '^1.12.0' },
+149 silly install resolved     dependencies: { isnumeric: '^0.2.0', 'viewport-dimensions': '^0.2.0' },
+149 silly install resolved     keywords:
+149 silly install resolved      [ 'unit',
+149 silly install resolved        'units',
+149 silly install resolved        'value',
+149 silly install resolved        'values',
+149 silly install resolved        'property',
+149 silly install resolved        'properties',
+149 silly install resolved        'rule',
+149 silly install resolved        'rules',
+149 silly install resolved        'css',
+149 silly install resolved        'parse',
+149 silly install resolved        'convert' ],
+149 silly install resolved     gitHead: 'c191d1d62fcab028250abef505193614d0878311',
+149 silly install resolved     _id: 'units-css@0.4.0',
+149 silly install resolved     _shasum: 'd6228653a51983d7c16ff28f8b9dc3b1ffed3a07',
+149 silly install resolved     _from: 'units-css@>=0.4.0 <0.5.0',
+149 silly install resolved     _npmVersion: '2.14.4',
+149 silly install resolved     _nodeVersion: '4.1.1',
+149 silly install resolved     _npmUser: { name: 'alexdunphy', email: 'alexanderdunphy@gmail.com' },
+149 silly install resolved     dist:
+149 silly install resolved      { shasum: 'd6228653a51983d7c16ff28f8b9dc3b1ffed3a07',
+149 silly install resolved        tarball: 'https://registry.npmjs.org/units-css/-/units-css-0.4.0.tgz' },
+149 silly install resolved     maintainers: [ [Object] ],
+149 silly install resolved     directories: {},
+149 silly install resolved     _resolved: 'https://registry.npmjs.org/units-css/-/units-css-0.4.0.tgz',
+149 silly install resolved     readme: 'ERROR: No README data found!' },
+149 silly install resolved   { name: 'nan',
+149 silly install resolved     version: '2.6.2',
+149 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility',
+149 silly install resolved     main: 'include_dirs.js',
+149 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+149 silly install resolved     scripts:
+149 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+149 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+149 silly install resolved        docs: 'doc/.build.sh' },
+149 silly install resolved     contributors:
+149 silly install resolved      [ [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object],
+149 silly install resolved        [Object] ],
+149 silly install resolved     devDependencies:
+149 silly install resolved      { bindings: '~1.2.1',
+149 silly install resolved        commander: '^2.8.1',
+149 silly install resolved        glob: '^5.0.14',
+149 silly install resolved        'node-gyp': '~3.0.1',
+149 silly install resolved        'readable-stream': '^2.1.4',
+149 silly install resolved        tap: '~0.7.1',
+149 silly install resolved        xtend: '~4.0.0' },
+149 silly install resolved     license: 'MIT',
+149 silly install resolved     gitHead: 'f0b2f64c1e5317888f2e12fdefb2f105e7018552',
+149 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+149 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+149 silly install resolved     _id: 'nan@2.6.2',
+149 silly install resolved     _shasum: 'e4ff34e6c95fdfb5aecc08de6596f43605a7db45',
+149 silly install resolved     _from: 'nan@>=2.4.0 <3.0.0',
+149 silly install resolved     _npmVersion: '4.1.2',
+149 silly install resolved     _nodeVersion: '7.5.0',
+149 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+149 silly install resolved     dist:
+149 silly install resolved      { shasum: 'e4ff34e6c95fdfb5aecc08de6596f43605a7db45',
+149 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz' },
+149 silly install resolved     maintainers: [ [Object], [Object] ],
+149 silly install resolved     _npmOperationalInternal:
+149 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+149 silly install resolved        tmp: 'tmp/nan-2.6.2.tgz_1492029516320_0.2352329883724451' },
+149 silly install resolved     directories: {},
+149 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz',
+149 silly install resolved     readme: 'ERROR: No README data found!' } ]
+150 info install parse-css-font@2.0.2 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+151 info install units-css@0.4.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+152 info install nan@2.6.2 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+153 info installOne parse-css-font@2.0.2
+154 verbose installOne of parse-css-font to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas not in flight; installing
+155 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+156 info installOne units-css@0.4.0
+157 verbose installOne of units-css to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas not in flight; installing
+158 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+159 info installOne nan@2.6.2
+160 verbose installOne of nan to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas not in flight; installing
+161 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+162 verbose lock using /Users/Alhazmy13/.npm/_locks/parse-css-font-330c91cc6e89af71.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+163 silly install write writing parse-css-font 2.0.2 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+164 verbose lock using /Users/Alhazmy13/.npm/_locks/nan-6202f2c606a347d9.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+165 verbose lock using /Users/Alhazmy13/.npm/_locks/units-css-a1cb169c2df61059.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+166 silly install write writing nan 2.6.2 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+167 silly install write writing units-css 0.4.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+168 verbose unbuild node_modules/canvas/node_modules/parse-css-font
+169 verbose unbuild node_modules/canvas/node_modules/nan
+170 verbose unbuild node_modules/canvas/node_modules/units-css
+171 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+172 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+173 verbose tar unpack /Users/Alhazmy13/.npm/parse-css-font/2.0.2/package.tgz
+174 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+175 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font is being purged
+176 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+177 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+178 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+179 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+180 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+181 silly gunzTarPerm modes [ '755', '644' ]
+182 verbose tar unpack /Users/Alhazmy13/.npm/nan/2.6.2/package.tgz
+183 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+184 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan is being purged
+185 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+186 verbose tar unpack /Users/Alhazmy13/.npm/units-css/0.4.0/package.tgz
+187 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+188 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css is being purged
+189 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+190 silly gunzTarPerm modes [ '755', '644' ]
+191 silly gunzTarPerm modes [ '755', '644' ]
+192 silly gunzTarPerm extractEntry package.json
+193 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+194 silly gunzTarPerm extractEntry package.json
+195 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+196 silly gunzTarPerm extractEntry package.json
+197 silly gunzTarPerm extractEntry README.md
+198 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+199 silly gunzTarPerm extractEntry LICENSE
+200 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+201 silly gunzTarPerm extractEntry README.md
+202 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+203 silly gunzTarPerm extractEntry .npmignore
+204 silly gunzTarPerm extractEntry README.md
+205 silly gunzTarPerm extractEntry include_dirs.js
+206 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+207 silly gunzTarPerm extractEntry index.js
+208 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry CHANGELOG.md
+210 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+211 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+212 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+213 silly gunzTarPerm extractEntry LICENSE.md
+214 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+215 silly gunzTarPerm extractEntry doc/new.md
+216 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+217 silly gunzTarPerm extractEntry index.js
+218 silly gunzTarPerm extractEntry LICENSE.md
+219 silly gunzTarPerm extractEntry doc/asyncworker.md
+220 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+221 silly gunzTarPerm extractEntry lib/helpers.js
+222 silly gunzTarPerm modified mode [ 'lib/helpers.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry .env
+224 silly gunzTarPerm extractEntry bower_components/isnumeric/package.json
+225 silly gunzTarPerm extractEntry doc/callback.md
+226 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+227 silly gunzTarPerm extractEntry doc/converters.md
+228 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+229 silly gunzTarPerm extractEntry bower_components/isnumeric/.npmignore
+230 silly gunzTarPerm extractEntry bower_components/isnumeric/README.md
+231 silly gunzTarPerm extractEntry doc/errors.md
+232 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+233 silly gunzTarPerm extractEntry doc/json.md
+234 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+235 silly gunzTarPerm extractEntry bower_components/isnumeric/Gruntfile.js
+236 silly gunzTarPerm extractEntry doc/maybe_types.md
+237 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+238 silly gunzTarPerm extractEntry doc/methods.md
+239 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+240 silly gunzTarPerm extractEntry bower_components/isnumeric/isNumeric.js
+241 silly gunzTarPerm extractEntry bower_components/isnumeric/isNumeric.min.js
+242 silly gunzTarPerm extractEntry doc/buffers.md
+243 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+244 silly gunzTarPerm extractEntry doc/node_misc.md
+245 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+246 silly gunzTarPerm extractEntry bower_components/isnumeric/spec.js
+247 silly gunzTarPerm extractEntry bower_components/isnumeric/.bower.json
+248 silly gunzTarPerm extractEntry doc/object_wrappers.md
+249 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+250 silly gunzTarPerm extractEntry doc/persistent.md
+251 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+252 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/package.json
+253 silly gunzTarPerm extractEntry doc/scopes.md
+254 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+255 silly gunzTarPerm extractEntry bower_components/isnumeric/.travis.yml
+256 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/index.js
+257 info preinstall parse-css-font@2.0.2
+258 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/package.json
+259 silly prepareForInstallMany adding css-font-size-keywords@^1.0.0 from parse-css-font dependencies
+260 silly prepareForInstallMany adding css-font-stretch-keywords@^1.0.1 from parse-css-font dependencies
+261 silly prepareForInstallMany adding css-font-style-keywords@^1.0.1 from parse-css-font dependencies
+262 silly prepareForInstallMany adding css-font-weight-keywords@^1.0.0 from parse-css-font dependencies
+263 silly prepareForInstallMany adding css-global-keywords@^1.0.1 from parse-css-font dependencies
+264 silly prepareForInstallMany adding css-list-helpers@^1.0.1 from parse-css-font dependencies
+265 silly prepareForInstallMany adding css-system-font-keywords@^1.0.0 from parse-css-font dependencies
+266 silly prepareForInstallMany adding tcomb@^2.5.0 from parse-css-font dependencies
+267 silly prepareForInstallMany adding unquote@^1.1.0 from parse-css-font dependencies
+268 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/package.json
+269 silly gunzTarPerm extractEntry doc/script.md
+270 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+271 silly gunzTarPerm extractEntry doc/string_bytes.md
+272 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+273 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/.bower.json
+274 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/LICENSE.md
+275 silly gunzTarPerm extractEntry doc/v8_internals.md
+276 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+277 silly gunzTarPerm extractEntry doc/v8_misc.md
+278 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+279 silly cache add args [ 'css-font-size-keywords@^1.0.0', null ]
+280 verbose cache add spec css-font-size-keywords@^1.0.0
+281 silly cache add args [ 'css-font-stretch-keywords@^1.0.1', null ]
+282 verbose cache add spec css-font-stretch-keywords@^1.0.1
+283 silly cache add parsed spec Result {
+283 silly cache add   raw: 'css-font-size-keywords@^1.0.0',
+283 silly cache add   scope: null,
+283 silly cache add   name: 'css-font-size-keywords',
+283 silly cache add   rawSpec: '^1.0.0',
+283 silly cache add   spec: '>=1.0.0 <2.0.0',
+283 silly cache add   type: 'range' }
+284 silly addNamed css-font-size-keywords@>=1.0.0 <2.0.0
+285 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for css-font-size-keywords
+286 silly addNameRange { name: 'css-font-size-keywords',
+286 silly addNameRange   range: '>=1.0.0 <2.0.0',
+286 silly addNameRange   hasData: false }
+287 silly mapToRegistry name css-font-size-keywords
+288 silly mapToRegistry using default registry
+289 silly mapToRegistry registry https://registry.npmjs.org/
+290 silly mapToRegistry uri https://registry.npmjs.org/css-font-size-keywords
+291 verbose addNameRange registry:https://registry.npmjs.org/css-font-size-keywords not in flight; fetching
+292 silly cache add parsed spec Result {
+292 silly cache add   raw: 'css-font-stretch-keywords@^1.0.1',
+292 silly cache add   scope: null,
+292 silly cache add   name: 'css-font-stretch-keywords',
+292 silly cache add   rawSpec: '^1.0.1',
+292 silly cache add   spec: '>=1.0.1 <2.0.0',
+292 silly cache add   type: 'range' }
+293 silly addNamed css-font-stretch-keywords@>=1.0.1 <2.0.0
+294 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for css-font-stretch-keywords
+295 silly addNameRange { name: 'css-font-stretch-keywords',
+295 silly addNameRange   range: '>=1.0.1 <2.0.0',
+295 silly addNameRange   hasData: false }
+296 silly mapToRegistry name css-font-stretch-keywords
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npmjs.org/
+299 silly mapToRegistry uri https://registry.npmjs.org/css-font-stretch-keywords
+300 verbose addNameRange registry:https://registry.npmjs.org/css-font-stretch-keywords not in flight; fetching
+301 silly cache add args [ 'css-font-style-keywords@^1.0.1', null ]
+302 verbose cache add spec css-font-style-keywords@^1.0.1
+303 silly cache add parsed spec Result {
+303 silly cache add   raw: 'css-font-style-keywords@^1.0.1',
+303 silly cache add   scope: null,
+303 silly cache add   name: 'css-font-style-keywords',
+303 silly cache add   rawSpec: '^1.0.1',
+303 silly cache add   spec: '>=1.0.1 <2.0.0',
+303 silly cache add   type: 'range' }
+304 silly addNamed css-font-style-keywords@>=1.0.1 <2.0.0
+305 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for css-font-style-keywords
+306 silly addNameRange { name: 'css-font-style-keywords',
+306 silly addNameRange   range: '>=1.0.1 <2.0.0',
+306 silly addNameRange   hasData: false }
+307 silly mapToRegistry name css-font-style-keywords
+308 silly mapToRegistry using default registry
+309 silly mapToRegistry registry https://registry.npmjs.org/
+310 silly mapToRegistry uri https://registry.npmjs.org/css-font-style-keywords
+311 verbose addNameRange registry:https://registry.npmjs.org/css-font-style-keywords not in flight; fetching
+312 silly cache add args [ 'css-font-weight-keywords@^1.0.0', null ]
+313 verbose cache add spec css-font-weight-keywords@^1.0.0
+314 silly cache add parsed spec Result {
+314 silly cache add   raw: 'css-font-weight-keywords@^1.0.0',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'css-font-weight-keywords',
+314 silly cache add   rawSpec: '^1.0.0',
+314 silly cache add   spec: '>=1.0.0 <2.0.0',
+314 silly cache add   type: 'range' }
+315 silly addNamed css-font-weight-keywords@>=1.0.0 <2.0.0
+316 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for css-font-weight-keywords
+317 silly addNameRange { name: 'css-font-weight-keywords',
+317 silly addNameRange   range: '>=1.0.0 <2.0.0',
+317 silly addNameRange   hasData: false }
+318 silly mapToRegistry name css-font-weight-keywords
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npmjs.org/
+321 silly mapToRegistry uri https://registry.npmjs.org/css-font-weight-keywords
+322 verbose addNameRange registry:https://registry.npmjs.org/css-font-weight-keywords not in flight; fetching
+323 silly cache add args [ 'css-global-keywords@^1.0.1', null ]
+324 verbose cache add spec css-global-keywords@^1.0.1
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'css-global-keywords@^1.0.1',
+325 silly cache add   scope: null,
+325 silly cache add   name: 'css-global-keywords',
+325 silly cache add   rawSpec: '^1.0.1',
+325 silly cache add   spec: '>=1.0.1 <2.0.0',
+325 silly cache add   type: 'range' }
+326 silly addNamed css-global-keywords@>=1.0.1 <2.0.0
+327 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for css-global-keywords
+328 silly addNameRange { name: 'css-global-keywords',
+328 silly addNameRange   range: '>=1.0.1 <2.0.0',
+328 silly addNameRange   hasData: false }
+329 silly mapToRegistry name css-global-keywords
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry uri https://registry.npmjs.org/css-global-keywords
+333 verbose addNameRange registry:https://registry.npmjs.org/css-global-keywords not in flight; fetching
+334 silly cache add args [ 'css-list-helpers@^1.0.1', null ]
+335 verbose cache add spec css-list-helpers@^1.0.1
+336 silly cache add parsed spec Result {
+336 silly cache add   raw: 'css-list-helpers@^1.0.1',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'css-list-helpers',
+336 silly cache add   rawSpec: '^1.0.1',
+336 silly cache add   spec: '>=1.0.1 <2.0.0',
+336 silly cache add   type: 'range' }
+337 silly addNamed css-list-helpers@>=1.0.1 <2.0.0
+338 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for css-list-helpers
+339 silly addNameRange { name: 'css-list-helpers',
+339 silly addNameRange   range: '>=1.0.1 <2.0.0',
+339 silly addNameRange   hasData: false }
+340 silly mapToRegistry name css-list-helpers
+341 silly mapToRegistry using default registry
+342 silly mapToRegistry registry https://registry.npmjs.org/
+343 silly mapToRegistry uri https://registry.npmjs.org/css-list-helpers
+344 verbose addNameRange registry:https://registry.npmjs.org/css-list-helpers not in flight; fetching
+345 silly cache add args [ 'css-system-font-keywords@^1.0.0', null ]
+346 verbose cache add spec css-system-font-keywords@^1.0.0
+347 silly cache add parsed spec Result {
+347 silly cache add   raw: 'css-system-font-keywords@^1.0.0',
+347 silly cache add   scope: null,
+347 silly cache add   name: 'css-system-font-keywords',
+347 silly cache add   rawSpec: '^1.0.0',
+347 silly cache add   spec: '>=1.0.0 <2.0.0',
+347 silly cache add   type: 'range' }
+348 silly addNamed css-system-font-keywords@>=1.0.0 <2.0.0
+349 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for css-system-font-keywords
+350 silly addNameRange { name: 'css-system-font-keywords',
+350 silly addNameRange   range: '>=1.0.0 <2.0.0',
+350 silly addNameRange   hasData: false }
+351 silly mapToRegistry name css-system-font-keywords
+352 silly mapToRegistry using default registry
+353 silly mapToRegistry registry https://registry.npmjs.org/
+354 silly mapToRegistry uri https://registry.npmjs.org/css-system-font-keywords
+355 verbose addNameRange registry:https://registry.npmjs.org/css-system-font-keywords not in flight; fetching
+356 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/bower.json
+357 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/dist/viewport.js
+358 silly cache add args [ 'tcomb@^2.5.0', null ]
+359 verbose cache add spec tcomb@^2.5.0
+360 silly cache add parsed spec Result {
+360 silly cache add   raw: 'tcomb@^2.5.0',
+360 silly cache add   scope: null,
+360 silly cache add   name: 'tcomb',
+360 silly cache add   rawSpec: '^2.5.0',
+360 silly cache add   spec: '>=2.5.0 <3.0.0',
+360 silly cache add   type: 'range' }
+361 silly addNamed tcomb@>=2.5.0 <3.0.0
+362 verbose addNamed ">=2.5.0 <3.0.0" is a valid semver range for tcomb
+363 silly addNameRange { name: 'tcomb', range: '>=2.5.0 <3.0.0', hasData: false }
+364 silly mapToRegistry name tcomb
+365 silly mapToRegistry using default registry
+366 silly mapToRegistry registry https://registry.npmjs.org/
+367 silly mapToRegistry uri https://registry.npmjs.org/tcomb
+368 verbose addNameRange registry:https://registry.npmjs.org/tcomb not in flight; fetching
+369 silly cache add args [ 'unquote@^1.1.0', null ]
+370 verbose cache add spec unquote@^1.1.0
+371 silly cache add parsed spec Result {
+371 silly cache add   raw: 'unquote@^1.1.0',
+371 silly cache add   scope: null,
+371 silly cache add   name: 'unquote',
+371 silly cache add   rawSpec: '^1.1.0',
+371 silly cache add   spec: '>=1.1.0 <2.0.0',
+371 silly cache add   type: 'range' }
+372 silly addNamed unquote@>=1.1.0 <2.0.0
+373 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for unquote
+374 silly addNameRange { name: 'unquote', range: '>=1.1.0 <2.0.0', hasData: false }
+375 silly mapToRegistry name unquote
+376 silly mapToRegistry using default registry
+377 silly mapToRegistry registry https://registry.npmjs.org/
+378 silly mapToRegistry uri https://registry.npmjs.org/unquote
+379 verbose addNameRange registry:https://registry.npmjs.org/unquote not in flight; fetching
+380 verbose get https://registry.npmjs.org/css-font-size-keywords not expired, no request
+381 silly addNameRange number 2 { name: 'css-font-size-keywords',
+381 silly addNameRange   range: '>=1.0.0 <2.0.0',
+381 silly addNameRange   hasData: true }
+382 silly addNameRange versions [ 'css-font-size-keywords', [ '1.0.0' ] ]
+383 silly addNamed css-font-size-keywords@1.0.0
+384 verbose addNamed "1.0.0" is a plain semver version for css-font-size-keywords
+385 verbose get https://registry.npmjs.org/css-font-stretch-keywords not expired, no request
+386 silly addNameRange number 2 { name: 'css-font-stretch-keywords',
+386 silly addNameRange   range: '>=1.0.1 <2.0.0',
+386 silly addNameRange   hasData: true }
+387 silly addNameRange versions [ 'css-font-stretch-keywords', [ '1.0.0', '1.0.1' ] ]
+388 silly addNamed css-font-stretch-keywords@1.0.1
+389 verbose addNamed "1.0.1" is a plain semver version for css-font-stretch-keywords
+390 verbose get https://registry.npmjs.org/css-font-style-keywords not expired, no request
+391 silly addNameRange number 2 { name: 'css-font-style-keywords',
+391 silly addNameRange   range: '>=1.0.1 <2.0.0',
+391 silly addNameRange   hasData: true }
+392 silly addNameRange versions [ 'css-font-style-keywords', [ '1.0.0', '1.0.1' ] ]
+393 silly addNamed css-font-style-keywords@1.0.1
+394 verbose addNamed "1.0.1" is a plain semver version for css-font-style-keywords
+395 verbose get https://registry.npmjs.org/css-font-weight-keywords not expired, no request
+396 silly addNameRange number 2 { name: 'css-font-weight-keywords',
+396 silly addNameRange   range: '>=1.0.0 <2.0.0',
+396 silly addNameRange   hasData: true }
+397 silly addNameRange versions [ 'css-font-weight-keywords', [ '1.0.0' ] ]
+398 silly addNamed css-font-weight-keywords@1.0.0
+399 verbose addNamed "1.0.0" is a plain semver version for css-font-weight-keywords
+400 verbose get https://registry.npmjs.org/css-global-keywords not expired, no request
+401 silly addNameRange number 2 { name: 'css-global-keywords',
+401 silly addNameRange   range: '>=1.0.1 <2.0.0',
+401 silly addNameRange   hasData: true }
+402 silly addNameRange versions [ 'css-global-keywords', [ '1.0.0', '1.0.1' ] ]
+403 silly addNamed css-global-keywords@1.0.1
+404 verbose addNamed "1.0.1" is a plain semver version for css-global-keywords
+405 verbose get https://registry.npmjs.org/css-list-helpers not expired, no request
+406 silly addNameRange number 2 { name: 'css-list-helpers',
+406 silly addNameRange   range: '>=1.0.1 <2.0.0',
+406 silly addNameRange   hasData: true }
+407 silly addNameRange versions [ 'css-list-helpers', [ '1.0.0', '1.0.1' ] ]
+408 silly addNamed css-list-helpers@1.0.1
+409 verbose addNamed "1.0.1" is a plain semver version for css-list-helpers
+410 verbose get https://registry.npmjs.org/css-system-font-keywords not expired, no request
+411 silly addNameRange number 2 { name: 'css-system-font-keywords',
+411 silly addNameRange   range: '>=1.0.0 <2.0.0',
+411 silly addNameRange   hasData: true }
+412 silly addNameRange versions [ 'css-system-font-keywords', [ '1.0.0' ] ]
+413 silly addNamed css-system-font-keywords@1.0.0
+414 verbose addNamed "1.0.0" is a plain semver version for css-system-font-keywords
+415 verbose get https://registry.npmjs.org/tcomb not expired, no request
+416 silly addNameRange number 2 { name: 'tcomb', range: '>=2.5.0 <3.0.0', hasData: true }
+417 silly addNameRange versions [ 'tcomb',
+417 silly addNameRange   [ '0.0.1',
+417 silly addNameRange     '0.0.2',
+417 silly addNameRange     '0.0.3',
+417 silly addNameRange     '0.0.4',
+417 silly addNameRange     '0.0.5',
+417 silly addNameRange     '0.0.6',
+417 silly addNameRange     '0.0.7',
+417 silly addNameRange     '0.0.8',
+417 silly addNameRange     '0.0.9',
+417 silly addNameRange     '0.0.10',
+417 silly addNameRange     '0.0.11',
+417 silly addNameRange     '0.0.12',
+417 silly addNameRange     '0.1.0',
+417 silly addNameRange     '0.2.0',
+417 silly addNameRange     '0.2.1',
+417 silly addNameRange     '0.3.0',
+417 silly addNameRange     '0.3.1',
+417 silly addNameRange     '0.3.2',
+417 silly addNameRange     '0.3.3',
+417 silly addNameRange     '0.3.4',
+417 silly addNameRange     '0.3.5',
+417 silly addNameRange     '0.3.6',
+417 silly addNameRange     '0.4.0',
+417 silly addNameRange     '1.0.0',
+417 silly addNameRange     '1.0.1',
+417 silly addNameRange     '1.0.2',
+417 silly addNameRange     '1.0.3',
+417 silly addNameRange     '2.0.0-beta',
+417 silly addNameRange     '2.0.0',
+417 silly addNameRange     '2.0.1',
+417 silly addNameRange     '2.1.0',
+417 silly addNameRange     '1.1.0',
+417 silly addNameRange     '2.2.0',
+417 silly addNameRange     '2.2.1',
+417 silly addNameRange     '2.3.0',
+417 silly addNameRange     '2.4.0',
+417 silly addNameRange     '2.4.1',
+417 silly addNameRange     '2.5.0',
+417 silly addNameRange     '2.5.1',
+417 silly addNameRange     '2.5.2',
+417 silly addNameRange     '2.6.0',
+417 silly addNameRange     '2.7.0',
+417 silly addNameRange     '3.0.0',
+417 silly addNameRange     '3.1.0',
+417 silly addNameRange     '3.2.0',
+417 silly addNameRange     '3.2.1',
+417 silly addNameRange     '3.2.2',
+417 silly addNameRange     '3.2.3',
+417 silly addNameRange     '3.2.4',
+417 silly addNameRange     '3.2.5',
+417 silly addNameRange     '3.2.6',
+417 silly addNameRange     '3.2.7',
+417 silly addNameRange     '3.2.8',
+417 silly addNameRange     '3.2.9',
+417 silly addNameRange     '3.2.10',
+417 silly addNameRange     '3.2.11',
+417 silly addNameRange     '3.2.12',
+417 silly addNameRange     '3.2.13',
+417 silly addNameRange     '3.2.14',
+417 silly addNameRange     '3.2.15',
+417 silly addNameRange     '3.2.16',
+417 silly addNameRange     '3.2.17',
+417 silly addNameRange     '3.2.18',
+417 silly addNameRange     '3.2.19',
+417 silly addNameRange     '3.2.20',
+417 silly addNameRange     '3.2.21',
+417 silly addNameRange     '3.2.22' ] ]
+418 silly addNamed tcomb@2.7.0
+419 verbose addNamed "2.7.0" is a plain semver version for tcomb
+420 verbose get https://registry.npmjs.org/unquote not expired, no request
+421 silly addNameRange number 2 { name: 'unquote', range: '>=1.1.0 <2.0.0', hasData: true }
+422 silly addNameRange versions [ 'unquote', [ '1.0.0', '1.1.0' ] ]
+423 silly addNamed unquote@1.1.0
+424 verbose addNamed "1.1.0" is a plain semver version for unquote
+425 silly gunzTarPerm extractEntry nan.h
+426 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+427 silly gunzTarPerm extractEntry nan_callbacks.h
+428 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+429 silly gunzTarPerm extractEntry bower_components/viewport-dimensions/dist/viewport.min.js
+430 silly gunzTarPerm extractEntry dist/units.js
+431 silly cache afterAdd css-font-size-keywords@1.0.0
+432 verbose afterAdd /Users/Alhazmy13/.npm/css-font-size-keywords/1.0.0/package/package.json not in flight; writing
+433 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+434 silly cache afterAdd css-font-stretch-keywords@1.0.1
+435 verbose afterAdd /Users/Alhazmy13/.npm/css-font-stretch-keywords/1.0.1/package/package.json not in flight; writing
+436 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+437 silly cache afterAdd css-font-style-keywords@1.0.1
+438 verbose afterAdd /Users/Alhazmy13/.npm/css-font-style-keywords/1.0.1/package/package.json not in flight; writing
+439 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+440 silly cache afterAdd css-font-weight-keywords@1.0.0
+441 verbose afterAdd /Users/Alhazmy13/.npm/css-font-weight-keywords/1.0.0/package/package.json not in flight; writing
+442 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+443 silly cache afterAdd css-global-keywords@1.0.1
+444 verbose afterAdd /Users/Alhazmy13/.npm/css-global-keywords/1.0.1/package/package.json not in flight; writing
+445 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+446 silly cache afterAdd css-list-helpers@1.0.1
+447 verbose afterAdd /Users/Alhazmy13/.npm/css-list-helpers/1.0.1/package/package.json not in flight; writing
+448 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+449 silly cache afterAdd css-system-font-keywords@1.0.0
+450 verbose afterAdd /Users/Alhazmy13/.npm/css-system-font-keywords/1.0.0/package/package.json not in flight; writing
+451 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+452 silly cache afterAdd tcomb@2.7.0
+453 verbose afterAdd /Users/Alhazmy13/.npm/tcomb/2.7.0/package/package.json not in flight; writing
+454 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+455 silly cache afterAdd unquote@1.1.0
+456 verbose afterAdd /Users/Alhazmy13/.npm/unquote/1.1.0/package/package.json not in flight; writing
+457 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+458 verbose afterAdd /Users/Alhazmy13/.npm/css-font-stretch-keywords/1.0.1/package/package.json written
+459 verbose afterAdd /Users/Alhazmy13/.npm/css-global-keywords/1.0.1/package/package.json written
+460 verbose afterAdd /Users/Alhazmy13/.npm/css-font-weight-keywords/1.0.0/package/package.json written
+461 verbose afterAdd /Users/Alhazmy13/.npm/css-font-style-keywords/1.0.1/package/package.json written
+462 verbose afterAdd /Users/Alhazmy13/.npm/css-font-size-keywords/1.0.0/package/package.json written
+463 verbose afterAdd /Users/Alhazmy13/.npm/css-list-helpers/1.0.1/package/package.json written
+464 verbose afterAdd /Users/Alhazmy13/.npm/css-system-font-keywords/1.0.0/package/package.json written
+465 verbose afterAdd /Users/Alhazmy13/.npm/unquote/1.1.0/package/package.json written
+466 verbose afterAdd /Users/Alhazmy13/.npm/tcomb/2.7.0/package/package.json written
+467 silly install resolved [ { name: 'css-font-stretch-keywords',
+467 silly install resolved     version: '1.0.1',
+467 silly install resolved     description: 'List of CSS font stretch keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-font-stretch-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'font', 'stretch', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-font-stretch-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-font-stretch-keywords#readme',
+467 silly install resolved     gitHead: 'd4b1cb1d4b62f6d5b128ad38f08f009f6fe007de',
+467 silly install resolved     _id: 'css-font-stretch-keywords@1.0.1',
+467 silly install resolved     _shasum: '50cee9b9ba031fb5c952d4723139f1e107b54b10',
+467 silly install resolved     _from: 'css-font-stretch-keywords@>=1.0.1 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '50cee9b9ba031fb5c952d4723139f1e107b54b10',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-font-stretch-keywords/-/css-font-stretch-keywords-1.0.1.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-font-stretch-keywords/-/css-font-stretch-keywords-1.0.1.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-global-keywords',
+467 silly install resolved     version: '1.0.1',
+467 silly install resolved     description: 'List of CSS global keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-global-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'global', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-global-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-global-keywords#readme',
+467 silly install resolved     gitHead: '448907fa783c20e3a76f62ccc3612b0433f2ace3',
+467 silly install resolved     _id: 'css-global-keywords@1.0.1',
+467 silly install resolved     _shasum: '72a9aea72796d019b1d2a3252de4e5aaa37e4a69',
+467 silly install resolved     _from: 'css-global-keywords@>=1.0.1 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '72a9aea72796d019b1d2a3252de4e5aaa37e4a69',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-global-keywords/-/css-global-keywords-1.0.1.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-global-keywords/-/css-global-keywords-1.0.1.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-font-weight-keywords',
+467 silly install resolved     version: '1.0.0',
+467 silly install resolved     description: 'List of CSS font weight keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-font-weight-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'font', 'weight', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-font-weight-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-font-weight-keywords#readme',
+467 silly install resolved     gitHead: 'd0deac6caa72a3cdb299dcabd8e8bb175a649560',
+467 silly install resolved     _id: 'css-font-weight-keywords@1.0.0',
+467 silly install resolved     _shasum: '9bc04671ac85bc724b574ef5d3ac96b0d604fd97',
+467 silly install resolved     _from: 'css-font-weight-keywords@>=1.0.0 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '9bc04671ac85bc724b574ef5d3ac96b0d604fd97',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-font-weight-keywords/-/css-font-weight-keywords-1.0.0.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-font-weight-keywords/-/css-font-weight-keywords-1.0.0.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-font-style-keywords',
+467 silly install resolved     version: '1.0.1',
+467 silly install resolved     description: 'List of CSS font style keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-font-style-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'font', 'style', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-font-style-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-font-style-keywords#readme',
+467 silly install resolved     gitHead: '9993ab578447a5a263b430009794b1197cdd78c4',
+467 silly install resolved     _id: 'css-font-style-keywords@1.0.1',
+467 silly install resolved     _shasum: '5c3532813f63b4a1de954d13cea86ab4333409e4',
+467 silly install resolved     _from: 'css-font-style-keywords@>=1.0.1 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '5c3532813f63b4a1de954d13cea86ab4333409e4',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-font-style-keywords/-/css-font-style-keywords-1.0.1.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-font-style-keywords/-/css-font-style-keywords-1.0.1.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-font-size-keywords',
+467 silly install resolved     version: '1.0.0',
+467 silly install resolved     description: 'List of CSS font size keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-font-size-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'font', 'size', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-font-size-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-font-size-keywords#readme',
+467 silly install resolved     gitHead: 'd7853a6bcef707393c028b85f0403fa7b1a04db4',
+467 silly install resolved     _id: 'css-font-size-keywords@1.0.0',
+467 silly install resolved     _shasum: '854875ace9aca6a8d2ee0d345a44aae9bb6db6cb',
+467 silly install resolved     _from: 'css-font-size-keywords@>=1.0.0 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '854875ace9aca6a8d2ee0d345a44aae9bb6db6cb',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-font-size-keywords/-/css-font-size-keywords-1.0.0.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-font-size-keywords/-/css-font-size-keywords-1.0.0.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-list-helpers',
+467 silly install resolved     version: '1.0.1',
+467 silly install resolved     description: 'Helper methods for splitting CSS lists (e.g., spaces, commas).',
+467 silly install resolved     main: 'index.js',
+467 silly install resolved     scripts:
+467 silly install resolved      { test: 'npm run cover && npm run check-coverage',
+467 silly install resolved        cover: 'istanbul cover test/index.js',
+467 silly install resolved        'check-coverage': 'istanbul check-coverage' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-list-helpers.git' },
+467 silly install resolved     keywords: [ 'css', 'list', 'helpers', 'split', 'space', 'comma' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-list-helpers/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-list-helpers#readme',
+467 silly install resolved     dependencies: { tcomb: '^2.5.0' },
+467 silly install resolved     devDependencies: { istanbul: '^0.3.21', tape: '^4.2.0' },
+467 silly install resolved     gitHead: 'cc33b85a1dccbe605993abfe1e24b9e70166964d',
+467 silly install resolved     _id: 'css-list-helpers@1.0.1',
+467 silly install resolved     _shasum: 'fff57192202db83240c41686f919e449a7024f7d',
+467 silly install resolved     _from: 'css-list-helpers@>=1.0.1 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: 'fff57192202db83240c41686f919e449a7024f7d',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-list-helpers/-/css-list-helpers-1.0.1.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-list-helpers/-/css-list-helpers-1.0.1.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'css-system-font-keywords',
+467 silly install resolved     version: '1.0.0',
+467 silly install resolved     description: 'List of CSS system font keywords.',
+467 silly install resolved     main: 'index.json',
+467 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/jedmao/css-system-font-keywords.git' },
+467 silly install resolved     keywords: [ 'css', 'font', 'weight', 'keywords' ],
+467 silly install resolved     author: { name: 'Jed Mao', email: 'jedmao@outlook.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/jedmao/css-system-font-keywords/issues' },
+467 silly install resolved     homepage: 'https://github.com/jedmao/css-system-font-keywords#readme',
+467 silly install resolved     gitHead: 'c7cb2f8d45f2297fd82506068958d85b37e5055e',
+467 silly install resolved     _id: 'css-system-font-keywords@1.0.0',
+467 silly install resolved     _shasum: '85c6f086aba4eb32c571a3086affc434b84823ed',
+467 silly install resolved     _from: 'css-system-font-keywords@>=1.0.0 <2.0.0',
+467 silly install resolved     _npmVersion: '2.14.3',
+467 silly install resolved     _nodeVersion: '4.1.0',
+467 silly install resolved     _npmUser: { name: 'jedmao', email: 'jedmao@outlook.com' },
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '85c6f086aba4eb32c571a3086affc434b84823ed',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/css-system-font-keywords/-/css-system-font-keywords-1.0.0.tgz' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/css-system-font-keywords/-/css-system-font-keywords-1.0.0.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'unquote',
+467 silly install resolved     version: '1.1.0',
+467 silly install resolved     description: 'Remove wrapping quotes from a string.',
+467 silly install resolved     main: 'index.js',
+467 silly install resolved     scripts: { test: 'node test/*' },
+467 silly install resolved     author: { name: 'Cameron Lakenen', email: 'cameron@lakenen.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     devDependencies: { tape: '^2.13.4' },
+467 silly install resolved     directories: { test: 'test' },
+467 silly install resolved     repository:
+467 silly install resolved      { type: 'git',
+467 silly install resolved        url: 'git+https://github.com/lakenen/node-unquote.git' },
+467 silly install resolved     bugs: { url: 'https://github.com/lakenen/node-unquote/issues' },
+467 silly install resolved     homepage: 'https://github.com/lakenen/node-unquote',
+467 silly install resolved     keywords: [ 'string', 'unquote', 'quotes' ],
+467 silly install resolved     gitHead: '7c90cf13f49156634ddd610ff6d9f7428bddf045',
+467 silly install resolved     _id: 'unquote@1.1.0',
+467 silly install resolved     _shasum: '98e1fc608b6b854c75afb1b95afc099ba69d942f',
+467 silly install resolved     _from: 'unquote@>=1.1.0 <2.0.0',
+467 silly install resolved     _npmVersion: '1.4.28',
+467 silly install resolved     _npmUser: { name: 'lakenen', email: 'cameron.lakenen@gmail.com' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '98e1fc608b6b854c75afb1b95afc099ba69d942f',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/unquote/-/unquote-1.1.0.tgz' },
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/unquote/-/unquote-1.1.0.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' },
+467 silly install resolved   { name: 'tcomb',
+467 silly install resolved     version: '2.7.0',
+467 silly install resolved     description: 'Type checking and DDD for JavaScript',
+467 silly install resolved     main: 'index.js',
+467 silly install resolved     typings: 'index.d.ts',
+467 silly install resolved     files: [ 'index.js', 'lib', 'index.d.ts' ],
+467 silly install resolved     scripts:
+467 silly install resolved      { lint: 'eslint index.js lib test',
+467 silly install resolved        test: 'npm run lint && mocha' },
+467 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gcanti/tcomb.git' },
+467 silly install resolved     author: { name: 'Giulio Canti', email: 'giulio.canti@gmail.com' },
+467 silly install resolved     license: 'MIT',
+467 silly install resolved     bugs: { url: 'https://github.com/gcanti/tcomb/issues' },
+467 silly install resolved     homepage: 'https://github.com/gcanti/tcomb',
+467 silly install resolved     devDependencies: { eslint: '^1.10.3', mocha: '^2.3.4' },
+467 silly install resolved     tags:
+467 silly install resolved      [ 'type',
+467 silly install resolved        'combinators',
+467 silly install resolved        'checking',
+467 silly install resolved        'safety',
+467 silly install resolved        'model',
+467 silly install resolved        'domain',
+467 silly install resolved        'debugging',
+467 silly install resolved        'immutable',
+467 silly install resolved        'DDD',
+467 silly install resolved        'JSON',
+467 silly install resolved        'store' ],
+467 silly install resolved     keywords:
+467 silly install resolved      [ 'type',
+467 silly install resolved        'combinators',
+467 silly install resolved        'checking',
+467 silly install resolved        'safety',
+467 silly install resolved        'model',
+467 silly install resolved        'domain',
+467 silly install resolved        'debugging',
+467 silly install resolved        'immutable',
+467 silly install resolved        'DDD',
+467 silly install resolved        'JSON',
+467 silly install resolved        'store' ],
+467 silly install resolved     gitHead: '595c26aaa18c9947ccf8aaeaa4ab46d25e0b2a6a',
+467 silly install resolved     _id: 'tcomb@2.7.0',
+467 silly install resolved     _shasum: '10d62958041669a5d53567b9a4ee8cde22b1c2b0',
+467 silly install resolved     _from: 'tcomb@>=2.5.0 <3.0.0',
+467 silly install resolved     _npmVersion: '2.9.0',
+467 silly install resolved     _nodeVersion: '0.12.2',
+467 silly install resolved     _npmUser: { name: 'gcanti', email: 'giulio.canti@gmail.com' },
+467 silly install resolved     maintainers: [ [Object] ],
+467 silly install resolved     dist:
+467 silly install resolved      { shasum: '10d62958041669a5d53567b9a4ee8cde22b1c2b0',
+467 silly install resolved        tarball: 'https://registry.npmjs.org/tcomb/-/tcomb-2.7.0.tgz' },
+467 silly install resolved     _npmOperationalInternal:
+467 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+467 silly install resolved        tmp: 'tmp/tcomb-2.7.0.tgz_1454921535649_0.254934266442433' },
+467 silly install resolved     directories: {},
+467 silly install resolved     _resolved: 'https://registry.npmjs.org/tcomb/-/tcomb-2.7.0.tgz',
+467 silly install resolved     readme: 'ERROR: No README data found!' } ]
+468 info install css-font-stretch-keywords@1.0.1 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+469 info install css-global-keywords@1.0.1 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+470 info install css-font-weight-keywords@1.0.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+471 info install css-font-style-keywords@1.0.1 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+472 info install css-font-size-keywords@1.0.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+473 info install css-list-helpers@1.0.1 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+474 info install css-system-font-keywords@1.0.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+475 info install unquote@1.1.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+476 info install tcomb@2.7.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+477 info installOne css-font-stretch-keywords@1.0.1
+478 verbose installOne of css-font-stretch-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+479 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+480 info installOne css-global-keywords@1.0.1
+481 verbose installOne of css-global-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+482 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+483 info installOne css-font-weight-keywords@1.0.0
+484 verbose installOne of css-font-weight-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+485 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+486 info installOne css-font-style-keywords@1.0.1
+487 verbose installOne of css-font-style-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+488 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+489 info installOne css-font-size-keywords@1.0.0
+490 verbose installOne of css-font-size-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+491 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+492 info installOne css-list-helpers@1.0.1
+493 verbose installOne of css-list-helpers to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+494 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+495 info installOne css-system-font-keywords@1.0.0
+496 verbose installOne of css-system-font-keywords to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+497 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+498 info installOne unquote@1.1.0
+499 verbose installOne of unquote to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+500 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+501 info installOne tcomb@2.7.0
+502 verbose installOne of tcomb to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font not in flight; installing
+503 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+504 silly gunzTarPerm extractEntry dist/units.min.js
+505 silly gunzTarPerm extractEntry lib/index.js
+506 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+507 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+508 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+509 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+510 silly gunzTarPerm extractEntry nan_converters.h
+511 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+512 verbose lock using /Users/Alhazmy13/.npm/_locks/css-font-stretch-keyword-ec8ebfe35de96002.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+513 verbose lock using /Users/Alhazmy13/.npm/_locks/css-font-weight-keywords-2796eabb728f2acf.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+514 verbose lock using /Users/Alhazmy13/.npm/_locks/css-global-keywords-0fc5be2b6ed23f03.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+515 verbose lock using /Users/Alhazmy13/.npm/_locks/css-font-size-keywords-733c5516435db53b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+516 verbose lock using /Users/Alhazmy13/.npm/_locks/css-list-helpers-cfed6980e8ce6719.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+517 verbose lock using /Users/Alhazmy13/.npm/_locks/css-font-style-keywords-423d4ff8fe63331b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+518 verbose lock using /Users/Alhazmy13/.npm/_locks/tcomb-44bea0698cd468db.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+519 verbose lock using /Users/Alhazmy13/.npm/_locks/css-system-font-keywords-991f085a72e57be3.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+520 verbose lock using /Users/Alhazmy13/.npm/_locks/unquote-94e5e6fbb454b8b0.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+521 silly install write writing css-font-stretch-keywords 1.0.1 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+522 silly install write writing css-font-weight-keywords 1.0.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+523 silly install write writing css-global-keywords 1.0.1 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+524 silly install write writing css-font-size-keywords 1.0.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+525 silly install write writing css-list-helpers 1.0.1 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+526 silly install write writing css-font-style-keywords 1.0.1 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+527 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+528 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+529 silly install write writing tcomb 2.7.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+530 silly install write writing css-system-font-keywords 1.0.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+531 silly install write writing unquote 1.1.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+532 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+533 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+534 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+535 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+536 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+537 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+538 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+539 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+540 verbose unbuild node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+541 silly gunzTarPerm extractEntry lib/utilities.js
+542 silly gunzTarPerm extractEntry lib/conversions/angle.js
+543 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+544 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+545 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+546 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+547 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+548 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+549 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+550 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+551 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+552 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+553 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+554 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+555 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+556 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+557 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+558 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+559 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+560 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+561 verbose tar unpack /Users/Alhazmy13/.npm/css-font-stretch-keywords/1.0.1/package.tgz
+562 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+563 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords is being purged
+564 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+565 verbose tar unpack /Users/Alhazmy13/.npm/css-font-weight-keywords/1.0.0/package.tgz
+566 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+567 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords is being purged
+568 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+569 verbose tar unpack /Users/Alhazmy13/.npm/css-global-keywords/1.0.1/package.tgz
+570 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+571 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords is being purged
+572 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+573 verbose tar unpack /Users/Alhazmy13/.npm/css-font-size-keywords/1.0.0/package.tgz
+574 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+575 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords is being purged
+576 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+577 verbose tar unpack /Users/Alhazmy13/.npm/css-list-helpers/1.0.1/package.tgz
+578 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+579 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers is being purged
+580 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+581 verbose tar unpack /Users/Alhazmy13/.npm/css-system-font-keywords/1.0.0/package.tgz
+582 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+583 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords is being purged
+584 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+585 verbose tar unpack /Users/Alhazmy13/.npm/css-font-style-keywords/1.0.1/package.tgz
+586 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+587 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords is being purged
+588 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+589 verbose tar unpack /Users/Alhazmy13/.npm/tcomb/2.7.0/package.tgz
+590 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+591 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb is being purged
+592 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+593 verbose tar unpack /Users/Alhazmy13/.npm/unquote/1.1.0/package.tgz
+594 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+595 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote is being purged
+596 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+597 silly gunzTarPerm modes [ '755', '644' ]
+598 silly gunzTarPerm modes [ '755', '644' ]
+599 silly gunzTarPerm modes [ '755', '644' ]
+600 silly gunzTarPerm modes [ '755', '644' ]
+601 silly gunzTarPerm modes [ '755', '644' ]
+602 silly gunzTarPerm modes [ '755', '644' ]
+603 silly gunzTarPerm modes [ '755', '644' ]
+604 silly gunzTarPerm modes [ '755', '644' ]
+605 silly gunzTarPerm modes [ '755', '644' ]
+606 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+607 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+608 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+609 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+610 silly gunzTarPerm extractEntry nan_json.h
+611 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+612 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+613 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+614 silly gunzTarPerm extractEntry package.json
+615 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+616 silly gunzTarPerm extractEntry lib/conversions/index.js
+617 silly gunzTarPerm extractEntry lib/conversions/length.js
+618 silly gunzTarPerm extractEntry package.json
+619 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+620 silly gunzTarPerm extractEntry package.json
+621 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+622 silly gunzTarPerm extractEntry package.json
+623 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+624 silly gunzTarPerm extractEntry package.json
+625 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+626 silly gunzTarPerm extractEntry package.json
+627 silly gunzTarPerm extractEntry package.json
+628 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+629 silly gunzTarPerm extractEntry package.json
+630 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+631 silly gunzTarPerm extractEntry package.json
+632 silly gunzTarPerm extractEntry .npmignore
+633 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+634 silly gunzTarPerm extractEntry README.md
+635 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+636 silly gunzTarPerm extractEntry .npmignore
+637 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+638 silly gunzTarPerm extractEntry README.md
+639 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+640 silly gunzTarPerm extractEntry README.md
+641 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+642 silly gunzTarPerm extractEntry LICENSE
+643 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+644 silly gunzTarPerm extractEntry .npmignore
+645 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+646 silly gunzTarPerm extractEntry README.md
+647 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+648 silly gunzTarPerm extractEntry .npmignore
+649 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+650 silly gunzTarPerm extractEntry README.md
+651 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+652 silly gunzTarPerm extractEntry README.md
+653 silly gunzTarPerm extractEntry LICENSE
+654 silly gunzTarPerm extractEntry .npmignore
+655 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+656 silly gunzTarPerm extractEntry README.md
+657 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+658 silly gunzTarPerm extractEntry .npmignore
+659 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+660 silly gunzTarPerm extractEntry README.md
+661 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+662 silly gunzTarPerm extractEntry .npmignore
+663 silly gunzTarPerm extractEntry README.md
+664 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+665 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+666 silly gunzTarPerm extractEntry nan_new.h
+667 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+668 silly gunzTarPerm extractEntry lib/conversions/resolution.js
+669 silly gunzTarPerm extractEntry LICENSE
+670 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+671 silly gunzTarPerm extractEntry CHANGELOG.md
+672 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+673 silly gunzTarPerm extractEntry LICENSE
+674 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+675 silly gunzTarPerm extractEntry CHANGELOG.md
+676 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+677 silly gunzTarPerm extractEntry LICENSE
+678 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+679 silly gunzTarPerm extractEntry CHANGELOG.md
+680 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+681 silly gunzTarPerm extractEntry LICENSE
+682 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+683 silly gunzTarPerm extractEntry CHANGELOG.md
+684 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+685 silly gunzTarPerm extractEntry index.js
+686 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+687 silly gunzTarPerm extractEntry CHANGELOG.md
+688 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+689 silly gunzTarPerm extractEntry index.js
+690 silly gunzTarPerm extractEntry CHANGELOG.md
+691 silly gunzTarPerm extractEntry LICENSE
+692 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+693 silly gunzTarPerm extractEntry CHANGELOG.md
+694 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+695 silly gunzTarPerm extractEntry LICENSE
+696 silly gunzTarPerm extractEntry index.js
+697 silly gunzTarPerm extractEntry nan_object_wrap.h
+698 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+699 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+700 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+701 silly gunzTarPerm extractEntry LICENSE
+702 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+703 silly gunzTarPerm extractEntry CHANGELOG.md
+704 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+705 silly gunzTarPerm extractEntry index.json
+706 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+707 silly gunzTarPerm extractEntry index.json
+708 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+709 silly gunzTarPerm extractEntry index.json
+710 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+711 silly gunzTarPerm extractEntry index.json
+712 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+713 silly gunzTarPerm extractEntry index.json
+714 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+715 silly gunzTarPerm extractEntry test/test.js
+716 silly gunzTarPerm extractEntry index.d.ts
+717 silly gunzTarPerm extractEntry index.json
+718 silly gunzTarPerm modified mode [ 'index.json', 438, 420 ]
+719 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+720 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+721 silly gunzTarPerm extractEntry nan_private.h
+722 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+723 silly gunzTarPerm extractEntry lib/Any.js
+724 silly gunzTarPerm extractEntry lib/func.js
+725 silly gunzTarPerm extractEntry nan_string_bytes.h
+726 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+727 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+728 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+729 silly gunzTarPerm extractEntry lib/getFunctionName.js
+730 silly gunzTarPerm extractEntry lib/getTypeName.js
+731 silly gunzTarPerm extractEntry nan_weak.h
+732 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+733 silly gunzTarPerm extractEntry CHANGELOG.md
+734 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+735 silly gunzTarPerm extractEntry lib/intersection.js
+736 silly gunzTarPerm extractEntry lib/fromJSON.js
+737 silly gunzTarPerm extractEntry tools/package.json
+738 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+739 silly gunzTarPerm extractEntry tools/README.md
+740 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+741 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers/package.json
+742 silly gunzTarPerm extractEntry lib/is.js
+743 silly gunzTarPerm extractEntry lib/isArray.js
+744 info preinstall css-list-helpers@1.0.1
+745 silly gunzTarPerm extractEntry tools/1to2.js
+746 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+747 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords/package.json
+748 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords/package.json
+749 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers/package.json
+750 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords/package.json
+751 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords/package.json
+752 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords/package.json
+753 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote/package.json
+754 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords/package.json
+755 info preinstall css-global-keywords@1.0.1
+756 info preinstall css-font-weight-keywords@1.0.0
+757 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords/package.json
+758 silly gunzTarPerm extractEntry lib/isBoolean.js
+759 silly gunzTarPerm extractEntry lib/isFunction.js
+760 info preinstall css-system-font-keywords@1.0.0
+761 info preinstall css-font-size-keywords@1.0.0
+762 info preinstall css-font-style-keywords@1.0.1
+763 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers/package.json
+764 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords/package.json
+765 info preinstall css-font-stretch-keywords@1.0.1
+766 info preinstall unquote@1.1.0
+767 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords/package.json
+768 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords/package.json
+769 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords/package.json
+770 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords/package.json
+771 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote/package.json
+772 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords/package.json
+773 silly install resolved []
+774 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+775 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+776 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords/package.json
+777 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords/package.json
+778 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords/package.json
+779 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords/package.json
+780 silly gunzTarPerm extractEntry lib/isIdentity.js
+781 silly gunzTarPerm extractEntry lib/union.js
+782 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords/package.json
+783 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote/package.json
+784 info linkStuff css-list-helpers@1.0.1
+785 silly linkStuff css-list-helpers@1.0.1 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+786 silly install resolved []
+787 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+788 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+789 silly install resolved []
+790 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+791 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+792 silly install resolved []
+793 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+794 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+795 silly install resolved []
+796 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+797 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+798 silly install resolved []
+799 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+800 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+801 silly install resolved []
+802 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+803 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+804 silly install resolved []
+805 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+806 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+807 info linkStuff css-global-keywords@1.0.1
+808 silly linkStuff css-global-keywords@1.0.1 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+809 silly gunzTarPerm extractEntry lib/isMaybe.js
+810 silly gunzTarPerm extractEntry lib/forbidNewOperator.js
+811 info linkStuff css-font-weight-keywords@1.0.0
+812 silly linkStuff css-font-weight-keywords@1.0.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+813 info linkStuff css-system-font-keywords@1.0.0
+814 silly linkStuff css-system-font-keywords@1.0.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+815 info linkStuff css-font-size-keywords@1.0.0
+816 silly linkStuff css-font-size-keywords@1.0.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+817 info linkStuff css-font-style-keywords@1.0.1
+818 silly linkStuff css-font-style-keywords@1.0.1 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+819 info linkStuff css-font-stretch-keywords@1.0.1
+820 silly linkStuff css-font-stretch-keywords@1.0.1 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+821 info linkStuff unquote@1.1.0
+822 silly linkStuff unquote@1.1.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+823 verbose linkBins css-list-helpers@1.0.1
+824 verbose linkMans css-list-helpers@1.0.1
+825 verbose rebuildBundles css-list-helpers@1.0.1
+826 info install css-list-helpers@1.0.1
+827 silly gunzTarPerm extractEntry lib/isNil.js
+828 silly gunzTarPerm extractEntry lib/fail.js
+829 info postinstall css-list-helpers@1.0.1
+830 verbose linkBins css-global-keywords@1.0.1
+831 verbose linkMans css-global-keywords@1.0.1
+832 verbose rebuildBundles css-global-keywords@1.0.1
+833 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-list-helpers-cfed6980e8ce6719.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-list-helpers
+834 info install css-global-keywords@1.0.1
+835 verbose linkBins css-font-weight-keywords@1.0.0
+836 verbose linkMans css-font-weight-keywords@1.0.0
+837 verbose rebuildBundles css-font-weight-keywords@1.0.0
+838 info install css-font-weight-keywords@1.0.0
+839 verbose linkBins css-system-font-keywords@1.0.0
+840 verbose linkMans css-system-font-keywords@1.0.0
+841 verbose rebuildBundles css-system-font-keywords@1.0.0
+842 verbose linkBins css-font-size-keywords@1.0.0
+843 verbose linkMans css-font-size-keywords@1.0.0
+844 verbose rebuildBundles css-font-size-keywords@1.0.0
+845 verbose linkBins css-font-style-keywords@1.0.1
+846 verbose linkMans css-font-style-keywords@1.0.1
+847 verbose rebuildBundles css-font-style-keywords@1.0.1
+848 info postinstall css-global-keywords@1.0.1
+849 info install css-system-font-keywords@1.0.0
+850 info install css-font-size-keywords@1.0.0
+851 info install css-font-style-keywords@1.0.1
+852 verbose linkBins css-font-stretch-keywords@1.0.1
+853 verbose linkMans css-font-stretch-keywords@1.0.1
+854 verbose rebuildBundles css-font-stretch-keywords@1.0.1
+855 verbose linkBins unquote@1.1.0
+856 verbose linkMans unquote@1.1.0
+857 verbose rebuildBundles unquote@1.1.0
+858 info postinstall css-font-weight-keywords@1.0.0
+859 info install css-font-stretch-keywords@1.0.1
+860 info install unquote@1.1.0
+861 info postinstall css-system-font-keywords@1.0.0
+862 info postinstall css-font-size-keywords@1.0.0
+863 info postinstall css-font-style-keywords@1.0.1
+864 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-global-keywords-0fc5be2b6ed23f03.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-global-keywords
+865 info postinstall css-font-stretch-keywords@1.0.1
+866 info postinstall unquote@1.1.0
+867 silly gunzTarPerm extractEntry lib/isNumber.js
+868 silly gunzTarPerm extractEntry lib/enums.js
+869 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-font-weight-keywords-2796eabb728f2acf.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-weight-keywords
+870 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-system-font-keywords-991f085a72e57be3.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-system-font-keywords
+871 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-font-size-keywords-733c5516435db53b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-size-keywords
+872 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-font-style-keywords-423d4ff8fe63331b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-style-keywords
+873 verbose unlock done using /Users/Alhazmy13/.npm/_locks/css-font-stretch-keyword-ec8ebfe35de96002.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/css-font-stretch-keywords
+874 verbose unlock done using /Users/Alhazmy13/.npm/_locks/unquote-94e5e6fbb454b8b0.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/unquote
+875 silly gunzTarPerm extractEntry lib/isObject.js
+876 silly gunzTarPerm extractEntry lib/dict.js
+877 silly gunzTarPerm extractEntry lib/isString.js
+878 silly gunzTarPerm extractEntry lib/declare.js
+879 silly gunzTarPerm extractEntry lib/isStruct.js
+880 silly gunzTarPerm extractEntry lib/create.js
+881 silly gunzTarPerm extractEntry lib/isType.js
+882 silly gunzTarPerm extractEntry lib/assert.js
+883 silly gunzTarPerm extractEntry lib/isTypeName.js
+884 silly gunzTarPerm extractEntry lib/String.js
+885 silly gunzTarPerm extractEntry lib/isUnion.js
+886 silly gunzTarPerm extractEntry lib/RegExp.js
+887 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/package.json
+888 info preinstall units-css@0.4.0
+889 silly gunzTarPerm extractEntry lib/list.js
+890 silly gunzTarPerm extractEntry lib/Object.js
+891 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/package.json
+892 silly prepareForInstallMany adding isnumeric@^0.2.0 from units-css dependencies
+893 silly prepareForInstallMany adding viewport-dimensions@^0.2.0 from units-css dependencies
+894 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/package.json
+895 silly gunzTarPerm extractEntry lib/match.js
+896 silly gunzTarPerm extractEntry lib/Number.js
+897 silly cache add args [ 'isnumeric@^0.2.0', null ]
+898 verbose cache add spec isnumeric@^0.2.0
+899 silly cache add args [ 'viewport-dimensions@^0.2.0', null ]
+900 verbose cache add spec viewport-dimensions@^0.2.0
+901 silly cache add parsed spec Result {
+901 silly cache add   raw: 'isnumeric@^0.2.0',
+901 silly cache add   scope: null,
+901 silly cache add   name: 'isnumeric',
+901 silly cache add   rawSpec: '^0.2.0',
+901 silly cache add   spec: '>=0.2.0 <0.3.0',
+901 silly cache add   type: 'range' }
+902 silly addNamed isnumeric@>=0.2.0 <0.3.0
+903 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for isnumeric
+904 silly addNameRange { name: 'isnumeric', range: '>=0.2.0 <0.3.0', hasData: false }
+905 silly mapToRegistry name isnumeric
+906 silly mapToRegistry using default registry
+907 silly mapToRegistry registry https://registry.npmjs.org/
+908 silly mapToRegistry uri https://registry.npmjs.org/isnumeric
+909 verbose addNameRange registry:https://registry.npmjs.org/isnumeric not in flight; fetching
+910 silly cache add parsed spec Result {
+910 silly cache add   raw: 'viewport-dimensions@^0.2.0',
+910 silly cache add   scope: null,
+910 silly cache add   name: 'viewport-dimensions',
+910 silly cache add   rawSpec: '^0.2.0',
+910 silly cache add   spec: '>=0.2.0 <0.3.0',
+910 silly cache add   type: 'range' }
+911 silly addNamed viewport-dimensions@>=0.2.0 <0.3.0
+912 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for viewport-dimensions
+913 silly addNameRange { name: 'viewport-dimensions',
+913 silly addNameRange   range: '>=0.2.0 <0.3.0',
+913 silly addNameRange   hasData: false }
+914 silly mapToRegistry name viewport-dimensions
+915 silly mapToRegistry using default registry
+916 silly mapToRegistry registry https://registry.npmjs.org/
+917 silly mapToRegistry uri https://registry.npmjs.org/viewport-dimensions
+918 verbose addNameRange registry:https://registry.npmjs.org/viewport-dimensions not in flight; fetching
+919 silly gunzTarPerm extractEntry lib/maybe.js
+920 silly gunzTarPerm extractEntry lib/Nil.js
+921 verbose get https://registry.npmjs.org/isnumeric not expired, no request
+922 silly addNameRange number 2 { name: 'isnumeric', range: '>=0.2.0 <0.3.0', hasData: true }
+923 silly addNameRange versions [ 'isnumeric',
+923 silly addNameRange   [ '0.0.1',
+923 silly addNameRange     '0.0.2',
+923 silly addNameRange     '0.0.3',
+923 silly addNameRange     '0.0.4',
+923 silly addNameRange     '0.0.5',
+923 silly addNameRange     '0.0.6',
+923 silly addNameRange     '0.0.7',
+923 silly addNameRange     '0.0.9',
+923 silly addNameRange     '0.0.10',
+923 silly addNameRange     '0.1.1',
+923 silly addNameRange     '0.1.2',
+923 silly addNameRange     '0.1.3',
+923 silly addNameRange     '0.1.4',
+923 silly addNameRange     '0.1.5',
+923 silly addNameRange     '0.2.0',
+923 silly addNameRange     '0.3.0',
+923 silly addNameRange     '0.3.1',
+923 silly addNameRange     '0.3.2' ] ]
+924 silly addNamed isnumeric@0.2.0
+925 verbose addNamed "0.2.0" is a plain semver version for isnumeric
+926 verbose get https://registry.npmjs.org/viewport-dimensions not expired, no request
+927 silly addNameRange number 2 { name: 'viewport-dimensions',
+927 silly addNameRange   range: '>=0.2.0 <0.3.0',
+927 silly addNameRange   hasData: true }
+928 silly addNameRange versions [ 'viewport-dimensions', [ '0.1.0', '0.2.0' ] ]
+929 silly addNamed viewport-dimensions@0.2.0
+930 verbose addNamed "0.2.0" is a plain semver version for viewport-dimensions
+931 silly gunzTarPerm extractEntry lib/mixin.js
+932 silly gunzTarPerm extractEntry lib/Function.js
+933 silly cache afterAdd isnumeric@0.2.0
+934 verbose afterAdd /Users/Alhazmy13/.npm/isnumeric/0.2.0/package/package.json not in flight; writing
+935 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+936 silly cache afterAdd viewport-dimensions@0.2.0
+937 verbose afterAdd /Users/Alhazmy13/.npm/viewport-dimensions/0.2.0/package/package.json not in flight; writing
+938 verbose correctMkdir /Users/Alhazmy13/.npm correctMkdir not in flight; initializing
+939 verbose afterAdd /Users/Alhazmy13/.npm/isnumeric/0.2.0/package/package.json written
+940 verbose afterAdd /Users/Alhazmy13/.npm/viewport-dimensions/0.2.0/package/package.json written
+941 silly install resolved [ { name: 'isnumeric',
+941 silly install resolved     author:
+941 silly install resolved      { name: 'Lee Crossley',
+941 silly install resolved        email: 'leee@hotmail.co.uk',
+941 silly install resolved        url: 'http://ilee.co.uk/' },
+941 silly install resolved     description: 'Determine if a JavaScript object is numeric',
+941 silly install resolved     homepage: 'http://ilee.co.uk',
+941 silly install resolved     version: '0.2.0',
+941 silly install resolved     main: 'isNumeric.min.js',
+941 silly install resolved     keywords: [ 'isnumeric', 'numeric', 'number' ],
+941 silly install resolved     scripts: { test: 'grunt test' },
+941 silly install resolved     repository:
+941 silly install resolved      { type: 'git',
+941 silly install resolved        url: 'git+ssh://git@github.com/leecrossley/isNumeric.git' },
+941 silly install resolved     engines: { node: '>= 0.8.x' },
+941 silly install resolved     devDependencies:
+941 silly install resolved      { grunt: '^0.4.5',
+941 silly install resolved        'grunt-cli': '^0.1.0',
+941 silly install resolved        'grunt-contrib-jasmine': '^0.8.0',
+941 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+941 silly install resolved        'grunt-contrib-uglify': '^0.9.1',
+941 silly install resolved        'grunt-contrib-watch': '^0.6.0' },
+941 silly install resolved     gitHead: '08be09ca97d51a87435fa1bf90a2accf29c4bec5',
+941 silly install resolved     bugs: { url: 'https://github.com/leecrossley/isNumeric/issues' },
+941 silly install resolved     _id: 'isnumeric@0.2.0',
+941 silly install resolved     _shasum: 'a2347ba360de19e33d0ffd590fddf7755cbf2e64',
+941 silly install resolved     _from: 'isnumeric@>=0.2.0 <0.3.0',
+941 silly install resolved     _npmVersion: '2.5.1',
+941 silly install resolved     _nodeVersion: '0.12.0',
+941 silly install resolved     _npmUser: { name: 'leecrossley', email: 'leee@hotmail.co.uk' },
+941 silly install resolved     maintainers: [ [Object] ],
+941 silly install resolved     dist:
+941 silly install resolved      { shasum: 'a2347ba360de19e33d0ffd590fddf7755cbf2e64',
+941 silly install resolved        tarball: 'https://registry.npmjs.org/isnumeric/-/isnumeric-0.2.0.tgz' },
+941 silly install resolved     directories: {},
+941 silly install resolved     _resolved: 'https://registry.npmjs.org/isnumeric/-/isnumeric-0.2.0.tgz',
+941 silly install resolved     readme: 'ERROR: No README data found!' },
+941 silly install resolved   { name: 'viewport-dimensions',
+941 silly install resolved     version: '0.2.0',
+941 silly install resolved     description: 'Simple utility for watching and retrieving browser viewport width, height, vmin and vmax',
+941 silly install resolved     author: { name: 'Alex Dunphy', email: 'alexanderdunphy@gmail.com' },
+941 silly install resolved     main: 'index.js',
+941 silly install resolved     scripts:
+941 silly install resolved      { test: 'gulp dev',
+941 silly install resolved        coveralls: 'if [ ! -f ./test/coverage/lcov.info ]; then npm test; fi; cat ./test/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+941 silly install resolved     repository:
+941 silly install resolved      { type: 'git',
+941 silly install resolved        url: 'git+ssh://git@github.com/alexdunphy/viewport.git' },
+941 silly install resolved     bugs: { url: 'https://github.com/alexdunphy/viewport/issues' },
+941 silly install resolved     homepage: 'https://github.com/alexdunphy/viewport',
+941 silly install resolved     license: 'MIT',
+941 silly install resolved     devDependencies:
+941 silly install resolved      { bower: '^1.5.2',
+941 silly install resolved        chai: '^3.2.0',
+941 silly install resolved        coveralls: '^2.11.4',
+941 silly install resolved        gulp: '^3.9.0',
+941 silly install resolved        'gulp-eslint': '^1.0.0',
+941 silly install resolved        'gulp-header': '^1.7.1',
+941 silly install resolved        'gulp-notify': '^2.2.0',
+941 silly install resolved        'gulp-rename': '^1.2.2',
+941 silly install resolved        'gulp-uglify': '^1.4.0',
+941 silly install resolved        'gulp-util': '^3.0.6',
+941 silly install resolved        karma: '^0.13.9',
+941 silly install resolved        'karma-coverage': '^0.5.1',
+941 silly install resolved        'karma-mocha': '^0.2.0',
+941 silly install resolved        'karma-mocha-reporter': '^1.1.1',
+941 silly install resolved        'karma-notify-reporter': '^0.1.1',
+941 silly install resolved        'karma-phantomjs-launcher': '^0.2.1',
+941 silly install resolved        'karma-sauce-launcher': '^0.2.14',
+941 silly install resolved        'karma-sinon-chai': '^1.0.0',
+941 silly install resolved        lodash: '^3.10.1',
+941 silly install resolved        mocha: '^2.3.0',
+941 silly install resolved        phantomjs: '^1.9.18',
+941 silly install resolved        'run-sequence': '^1.1.2',
+941 silly install resolved        webpack: '^1.12.0' },
+941 silly install resolved     keywords:
+941 silly install resolved      [ 'viewport',
+941 silly install resolved        'browser',
+941 silly install resolved        'window',
+941 silly install resolved        'document',
+941 silly install resolved        'width',
+941 silly install resolved        'height',
+941 silly install resolved        'innerWidth',
+941 silly install resolved        'innerHeight',
+941 silly install resolved        'clientWidth',
+941 silly install resolved        'clientHeight',
+941 silly install resolved        'dimensions',
+941 silly install resolved        'dimension' ],
+941 silly install resolved     gitHead: '66f8ccc6e35cb15d3a2b8889e7d59706c43486d8',
+941 silly install resolved     _id: 'viewport-dimensions@0.2.0',
+941 silly install resolved     _shasum: 'de740747db5387fd1725f5175e91bac76afdf36c',
+941 silly install resolved     _from: 'viewport-dimensions@>=0.2.0 <0.3.0',
+941 silly install resolved     _npmVersion: '2.8.4',
+941 silly install resolved     _nodeVersion: '0.12.2',
+941 silly install resolved     _npmUser: { name: 'alexdunphy', email: 'alexanderdunphy@gmail.com' },
+941 silly install resolved     dist:
+941 silly install resolved      { shasum: 'de740747db5387fd1725f5175e91bac76afdf36c',
+941 silly install resolved        tarball: 'https://registry.npmjs.org/viewport-dimensions/-/viewport-dimensions-0.2.0.tgz' },
+941 silly install resolved     maintainers: [ [Object] ],
+941 silly install resolved     directories: {},
+941 silly install resolved     _resolved: 'https://registry.npmjs.org/viewport-dimensions/-/viewport-dimensions-0.2.0.tgz',
+941 silly install resolved     readme: 'ERROR: No README data found!' } ]
+942 info install isnumeric@0.2.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+943 info install viewport-dimensions@0.2.0 into /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+944 info installOne isnumeric@0.2.0
+945 verbose installOne of isnumeric to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css not in flight; installing
+946 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+947 info installOne viewport-dimensions@0.2.0
+948 verbose installOne of viewport-dimensions to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css not in flight; installing
+949 verbose correctMkdir /Users/Alhazmy13/.npm/_locks correctMkdir not in flight; initializing
+950 silly gunzTarPerm extractEntry lib/refinement.js
+951 silly gunzTarPerm extractEntry lib/Error.js
+952 verbose lock using /Users/Alhazmy13/.npm/_locks/isnumeric-74f5c3df927b697b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+953 verbose lock using /Users/Alhazmy13/.npm/_locks/viewport-dimensions-af1ca48eb2417683.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+954 silly install write writing isnumeric 0.2.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+955 silly install write writing viewport-dimensions 0.2.0 to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+956 verbose unbuild node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+957 verbose unbuild node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+958 silly gunzTarPerm extractEntry lib/stringify.js
+959 silly gunzTarPerm extractEntry lib/Date.js
+960 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+961 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+962 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+963 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+964 verbose tar unpack /Users/Alhazmy13/.npm/isnumeric/0.2.0/package.tgz
+965 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+966 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric is being purged
+967 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+968 verbose tar unpack /Users/Alhazmy13/.npm/viewport-dimensions/0.2.0/package.tgz
+969 verbose tar unpacking to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+970 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions is being purged
+971 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+972 silly gunzTarPerm modes [ '755', '644' ]
+973 silly gunzTarPerm modes [ '755', '644' ]
+974 silly gunzTarPerm extractEntry package.json
+975 silly gunzTarPerm extractEntry package.json
+976 silly gunzTarPerm extractEntry lib/struct.js
+977 silly gunzTarPerm extractEntry lib/Boolean.js
+978 silly gunzTarPerm extractEntry .npmignore
+979 silly gunzTarPerm extractEntry README.md
+980 silly gunzTarPerm extractEntry .npmignore
+981 silly gunzTarPerm extractEntry README.md
+982 silly gunzTarPerm extractEntry lib/tuple.js
+983 silly gunzTarPerm extractEntry lib/Array.js
+984 silly gunzTarPerm extractEntry Gruntfile.js
+985 silly gunzTarPerm extractEntry isNumeric.min.js
+986 silly gunzTarPerm extractEntry index.js
+987 silly gunzTarPerm extractEntry LICENSE.md
+988 silly gunzTarPerm extractEntry lib/update.js
+989 silly gunzTarPerm extractEntry lib/irreducible.js
+990 silly gunzTarPerm extractEntry isNumeric.js
+991 silly gunzTarPerm extractEntry spec.js
+992 silly gunzTarPerm extractEntry dist/viewport.js
+993 silly gunzTarPerm extractEntry dist/viewport.min.js
+994 silly gunzTarPerm extractEntry lib/fromJSON.d.ts
+995 silly gunzTarPerm extractEntry .travis.yml
+996 silly gunzTarPerm extractEntry .env
+997 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric/package.json
+998 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions/package.json
+999 info preinstall viewport-dimensions@0.2.0
+1000 info preinstall isnumeric@0.2.0
+1001 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions/package.json
+1002 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric/package.json
+1003 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions/package.json
+1004 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric/package.json
+1005 silly install resolved []
+1006 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+1007 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+1008 silly install resolved []
+1009 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+1010 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+1011 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan/package.json
+1012 info linkStuff viewport-dimensions@0.2.0
+1013 silly linkStuff viewport-dimensions@0.2.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules as its parent node_modules
+1014 info linkStuff isnumeric@0.2.0
+1015 silly linkStuff isnumeric@0.2.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules as its parent node_modules
+1016 info preinstall nan@2.6.2
+1017 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan/package.json
+1018 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan/package.json
+1019 verbose linkBins viewport-dimensions@0.2.0
+1020 verbose linkMans viewport-dimensions@0.2.0
+1021 verbose rebuildBundles viewport-dimensions@0.2.0
+1022 info install viewport-dimensions@0.2.0
+1023 verbose linkBins isnumeric@0.2.0
+1024 verbose linkMans isnumeric@0.2.0
+1025 verbose rebuildBundles isnumeric@0.2.0
+1026 info install isnumeric@0.2.0
+1027 info postinstall viewport-dimensions@0.2.0
+1028 info postinstall isnumeric@0.2.0
+1029 silly install resolved []
+1030 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+1031 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+1032 verbose unlock done using /Users/Alhazmy13/.npm/_locks/viewport-dimensions-af1ca48eb2417683.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/viewport-dimensions
+1033 verbose unlock done using /Users/Alhazmy13/.npm/_locks/isnumeric-74f5c3df927b697b.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css/node_modules/isnumeric
+1034 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+1035 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+1036 info linkStuff nan@2.6.2
+1037 silly linkStuff nan@2.6.2 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules as its parent node_modules
+1038 info linkStuff units-css@0.4.0
+1039 silly linkStuff units-css@0.4.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules as its parent node_modules
+1040 verbose linkBins nan@2.6.2
+1041 verbose linkMans nan@2.6.2
+1042 verbose rebuildBundles nan@2.6.2
+1043 info install nan@2.6.2
+1044 verbose linkBins units-css@0.4.0
+1045 verbose linkMans units-css@0.4.0
+1046 verbose rebuildBundles units-css@0.4.0
+1047 verbose rebuildBundles [ 'isnumeric', 'viewport-dimensions' ]
+1048 info install units-css@0.4.0
+1049 info postinstall nan@2.6.2
+1050 info postinstall units-css@0.4.0
+1051 verbose unlock done using /Users/Alhazmy13/.npm/_locks/nan-6202f2c606a347d9.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/nan
+1052 verbose unlock done using /Users/Alhazmy13/.npm/_locks/units-css-a1cb169c2df61059.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/units-css
+1053 verbose write writing to /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb/package.json
+1054 info preinstall tcomb@2.7.0
+1055 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb/package.json
+1056 verbose readDependencies loading dependencies from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb/package.json
+1057 silly install resolved []
+1058 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+1059 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+1060 info linkStuff tcomb@2.7.0
+1061 silly linkStuff tcomb@2.7.0 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules as its parent node_modules
+1062 verbose linkBins tcomb@2.7.0
+1063 verbose linkMans tcomb@2.7.0
+1064 verbose rebuildBundles tcomb@2.7.0
+1065 info install tcomb@2.7.0
+1066 info postinstall tcomb@2.7.0
+1067 verbose unlock done using /Users/Alhazmy13/.npm/_locks/tcomb-44bea0698cd468db.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font/node_modules/tcomb
+1068 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+1069 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+1070 info linkStuff parse-css-font@2.0.2
+1071 silly linkStuff parse-css-font@2.0.2 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules as its parent node_modules
+1072 verbose linkBins parse-css-font@2.0.2
+1073 verbose linkMans parse-css-font@2.0.2
+1074 verbose rebuildBundles parse-css-font@2.0.2
+1075 verbose rebuildBundles [ 'css-font-size-keywords',
+1075 verbose rebuildBundles   'css-font-stretch-keywords',
+1075 verbose rebuildBundles   'css-font-style-keywords',
+1075 verbose rebuildBundles   'css-font-weight-keywords',
+1075 verbose rebuildBundles   'css-global-keywords',
+1075 verbose rebuildBundles   'css-list-helpers',
+1075 verbose rebuildBundles   'css-system-font-keywords',
+1075 verbose rebuildBundles   'tcomb',
+1075 verbose rebuildBundles   'unquote' ]
+1076 info install parse-css-font@2.0.2
+1077 info postinstall parse-css-font@2.0.2
+1078 verbose unlock done using /Users/Alhazmy13/.npm/_locks/parse-css-font-330c91cc6e89af71.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas/node_modules/parse-css-font
+1079 verbose about to build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+1080 info build /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+1081 info linkStuff canvas@1.6.6
+1082 silly linkStuff canvas@1.6.6 has /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules as its parent node_modules
+1083 verbose linkBins canvas@1.6.6
+1084 verbose linkMans canvas@1.6.6
+1085 verbose rebuildBundles canvas@1.6.6
+1086 verbose rebuildBundles [ 'nan', 'parse-css-font', 'units-css' ]
+1087 info install canvas@1.6.6
+1088 verbose unsafe-perm in lifecycle false
+1089 info canvas@1.6.6 Failed to exec install script
+1090 verbose unlock done using /Users/Alhazmy13/.npm/_locks/canvas-1075284e175a9005.lock for /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+1091 verbose stack Error: canvas@1.6.6 install: `node-gyp rebuild`
+1091 verbose stack Exit status 1
+1091 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+1091 verbose stack     at emitTwo (events.js:87:13)
+1091 verbose stack     at EventEmitter.emit (events.js:172:7)
+1091 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1091 verbose stack     at emitTwo (events.js:87:13)
+1091 verbose stack     at ChildProcess.emit (events.js:172:7)
+1091 verbose stack     at maybeClose (internal/child_process.js:827:16)
+1091 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1092 verbose pkgid canvas@1.6.6
+1093 verbose cwd /Users/Alhazmy13/Projects/swift-is-like-typescript
+1094 error Darwin 15.6.0
+1095 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "canvas"
+1096 error node v4.4.0
+1097 error npm  v2.14.20
+1098 error code ELIFECYCLE
+1099 error canvas@1.6.6 install: `node-gyp rebuild`
+1099 error Exit status 1
+1100 error Failed at the canvas@1.6.6 install script 'node-gyp rebuild'.
+1100 error This is most likely a problem with the canvas package,
+1100 error not with npm itself.
+1100 error Tell the author that this fails on your system:
+1100 error     node-gyp rebuild
+1100 error You can get information on how to open an issue for this project with:
+1100 error     npm bugs canvas
+1100 error Or if that isn't available, you can get their info via:
+1100 error
+1100 error     npm owner ls canvas
+1100 error There is likely additional logging output above.
+1101 verbose exit [ 1, true ]
+1102 verbose unbuild node_modules/canvas
+1103 info preuninstall canvas@1.6.6
+1104 info uninstall canvas@1.6.6
+1105 verbose unbuild rmStuff canvas@1.6.6 from /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules
+1106 info postuninstall canvas@1.6.6
+1107 silly gentlyRm /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas is being purged from base /Users/Alhazmy13/Projects/swift-is-like-typescript
+1108 verbose gentlyRm don't care about contents; nuking /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+1109 silly vacuum-fs purging /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules/canvas
+1110 silly vacuum-fs quitting because other entries in /Users/Alhazmy13/Projects/swift-is-like-typescript/node_modules
