@@ -11,8 +11,8 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem/swift-is-like-TypeScript
-      img#fork-me (:src http://nilhcem.github.io/swift-is-like-TypeScript/fork-me.png)
+      :href https://github.com/alhazmy13/swift-is-like-TypeScript
+      img#fork-me (:src https://raw.githubusercontent.com/alhazmy13/alhazmy13.github.io/master/fork-me.png)
     #note
       = "Swift is like TypeScript"
 
