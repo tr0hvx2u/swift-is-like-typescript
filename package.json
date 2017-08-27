@@ -13,6 +13,7 @@
     "shelljs": "^0.3.0"
   },
   "dependencies": {
+    "canvas": "^1.6.6",
     "mission": "^0.0.7",
     "shelljs": "^0.3.0"
   },
