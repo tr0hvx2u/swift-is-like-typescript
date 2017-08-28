@@ -1,5 +1,7 @@
 let makeIncrementer: (value: number) => number =
-    function (value: number): number { return value + 1; };
+    function (value: number): number {
+        return value + 1; 
+    };
 
 
 

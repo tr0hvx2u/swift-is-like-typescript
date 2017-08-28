@@ -7,7 +7,8 @@ class NamedShape {
     }
 
     simpleDescription(): string {
-        return "A shape with " + this.numberOfSides + " sides.";
+        return "A shape with " + this.numberOfSides +
+         " sides.";
     }
 }
 
