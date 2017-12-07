@@ -1,7 +1,6 @@
 let names = ["Anna", "Alex", "Brian", "Jack"]
-let count = names.count
-for i in 0..&lt;count {
-    print("Person \(i + 1) is called \(names[i])")
+names.enumerated().forEach { (offset, element) in
+    print("Person \(offset + 1) is called \(element)")
 }
 // Person 1 is called Anna
 // Person 2 is called Alex
