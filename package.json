@@ -1,12 +1,12 @@
 {
-  "name": "swift-is-like-kotlin",
+  "name": "swift-is-like-typescript",
   "version": "0.0.2",
-  "description": "Swift is like Kotlin ------",
+  "description": "Swift is like Typescript ------",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jiyinyiyong, nilhcem",
+  "author": "jiyinyiyong, nilhcem, alhazmy13",
   "license": "MIT",
   "devDependencies": {
     "mission": "0.0.7",
@@ -19,14 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nilhcem/swift-is-like-kotlin.git"
+    "url": "https://github.com/alhazmy13/swift-is-like-typescript.git"
   },
   "keywords": [
     "swift",
-    "kotlin"
+    "typescript"
   ],
-  "bugs": {
-    "url": "https://github.com/Nilhcem/swift-is-like-kotlin/issues"
-  },
-  "homepage": "https://github.com/Nilhcem/swift-is-like-kotlin"
+  "homepage": "https://github.com/alhazmy13/swift-is-like-typescript"
 }
